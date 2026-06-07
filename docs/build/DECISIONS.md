@@ -20,6 +20,21 @@ Consequences:
 
 ---
 
+### 2026-06-07: Move repository outside OneDrive
+
+Decision:
+Store the repository at `C:\dev\Aspirationalist`.
+
+Rationale:
+OneDrive synchronization created Git lock conflicts that interfered with AI-assisted development workflows. The `.git` folder requires exclusive file access during commits, which OneDrive's continuous sync process disrupts.
+
+Consequences:
+- All local development, GitHub Desktop, Claude, Cursor, and other tools should use `C:\dev\Aspirationalist` as the working copy.
+- `C:\dev` is outside OneDrive and will not be synced automatically.
+- GitHub remains the remote backup and source of truth.
+
+---
+
 ### 2026-06-07: Use shared agent instructions with tool-specific adapters
 
 Decision:
