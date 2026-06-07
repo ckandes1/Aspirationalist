@@ -10,7 +10,9 @@ Product discovery.
 
 ## MVP goal
 
-Create a website and blog with clear content categories, newsletter signup, and a path toward community, resources, paid offerings, and future web apps.
+Create a website built around owned canonical resources and topic hubs, with newsletter signup and a path toward community, paid offerings, and future web apps.
+
+Articles are an open decision. Long-form writing may be published through external channels in v1 and linked or repurposed on topic and resource pages.
 
 ## Initial content pillars
 
