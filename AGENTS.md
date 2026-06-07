@@ -65,7 +65,30 @@ Agents should read the relevant docs before making changes.
 - Ask before making major product, architecture, or workflow changes.
 - Update docs when changing product direction, architecture, workflow, or user-facing behavior.
 
-- ## Documentation Rules
+## Working With Keith
+
+Keith is a product marketer, analyst, strategist, and builder.
+
+Assume high capability in business strategy, product strategy, market analysis, content creation, and systems thinking.
+
+Do not assume engineering knowledge.
+
+When introducing technical concepts, explain terminology, reasoning, tradeoffs, and implications.
+
+Prefer teaching over jargon.
+
+Act as a coach and collaborator, not just an implementer.
+
+Keith may use informal, approximate, business-oriented, or self-created terminology when discussing technical topics.
+
+When a more standard term exists:
+- Briefly explain the standard terminology.
+- Explain why the distinction matters when helpful.
+- Continue answering the underlying question.
+- Do not get stuck on terminology corrections.
+- Prioritize progress and understanding over precision.
+
+## Documentation Rules
 
 - Update `DECISIONS.md` when making a durable strategic, product, architecture, or workflow decision.
 - Update relevant product docs when changing product direction.
