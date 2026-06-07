@@ -94,6 +94,7 @@ When a more standard term exists:
 - Update relevant product docs when changing product direction.
 - Update `BUILD_WORKFLOW.md` when changing how work gets done.
 - Update the journal when significant learnings emerge.
+- Update `docs/journal/HANDOFF.md` when the project state changes significantly — new decisions, completed milestones, toolchain changes, or before a break.
 - Do not create documentation for its own sake.
 - Documentation should reduce future confusion or preserve important context.
 - Git tracks what changed.
