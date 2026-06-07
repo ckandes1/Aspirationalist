@@ -65,6 +65,18 @@ Agents should read the relevant docs before making changes.
 - Ask before making major product, architecture, or workflow changes.
 - Update docs when changing product direction, architecture, workflow, or user-facing behavior.
 
+- ## Documentation Rules
+
+- Update `DECISIONS.md` when making a durable strategic, product, architecture, or workflow decision.
+- Update relevant product docs when changing product direction.
+- Update `BUILD_WORKFLOW.md` when changing how work gets done.
+- Update the journal when significant learnings emerge.
+- Do not create documentation for its own sake.
+- Documentation should reduce future confusion or preserve important context.
+- Git tracks what changed.
+- Decisions explain why it changed.
+- The journal captures what was learned.
+
 ## Agent Roles
 
 Builder agents implement scoped changes.
