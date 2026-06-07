@@ -12,6 +12,21 @@ People may arrive through a specific problem, such as Gartner, analyst relations
 
 They stay because the broader work helps them learn, build, contribute, and increase their impact.
 
+## Canonical Publishing Strategy
+
+Aspirationalist should prioritize owned canonical resources and artifacts.
+
+Canonical resources are the durable source-of-truth pages on the site. They can be updated, improved, shared, linked, gated, bundled, or monetized over time.
+
+Distributed content across LinkedIn, newsletters, Substack, video, podcasts, or other channels should point back to these canonical resources when relevant.
+
+The current model is:
+
+Canonical resource
+→ distributed content
+→ inbound attention
+→ deeper relationship through newsletter, community, resources, or products
+
 ## Content Layers
 
 ### 1. Practical Resources
