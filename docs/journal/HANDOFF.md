@@ -66,4 +66,33 @@ A full repo audit was completed at project start. Key findings:
 
 ---
 
+---
+
+## Session Handoff — 2026-06-07
+
+Stopping here for the day. The following is current as of this session ending.
+
+### Completed today
+
+- Created repo and initial product docs
+- Audited repo — identified contradictions, redundancies, missing docs, open decisions
+- Added `## Working With Keith` section to `AGENTS.md`
+- Fixed PRD MVP goal — removed "blog" framing, aligned with canonical resources decision
+- Moved repo from OneDrive to `C:\dev\Aspirationalist` to prevent Git lock conflicts
+- Created this `HANDOFF.md`
+- Added OneDrive move to `DECISIONS.md`
+- Added HANDOFF update rule to `AGENTS.md` Documentation Rules
+
+### Immediate next actions (pick up here)
+
+1. **Define the Content Model** — what is a Resource? Fields, types (template, guide, framework, checklist), metadata, relationships to Topics. This is the core data model and gates stack decisions.
+2. **Write the MVP Spec** — what pages ship in v1, what features, what definition of done.
+3. **Decide on stack** — after content model is defined, framework and CMS choice become much more constrained.
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md and docs/journal/HANDOFF.md first, then tell me what we should work on next.`
+
+---
+
 *Update this document at major checkpoints: new decisions, completed milestones, toolchain changes, or before a break.*
