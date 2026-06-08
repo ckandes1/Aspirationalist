@@ -45,6 +45,7 @@ Product docs:
 - `docs/product/SITE_VISION.md`
 - `docs/product/CONTENT_STRATEGY.md`
 - `docs/product/INFORMATION_ARCHITECTURE.md`
+- `docs/product/CONTENT_MODEL.md`
 
 Build docs:
 - `docs/build/DECISIONS.md`

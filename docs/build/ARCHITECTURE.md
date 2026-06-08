@@ -6,16 +6,16 @@ Define the technical architecture for Aspirationalist as the platform moves from
 
 ## Current Status
 
-Architecture is not finalized.
+Core stack decided. Implementation not yet started.
 
-## Likely Direction
+## Stack
 
 - Frontend: Next.js
+- CMS: Sanity
 - Hosting/deployment: Vercel
 - Source control: GitHub
-- Content: Markdown or MDX in repo
+- Database: TBD (Supabase likely when needed)
 - Auth: TBD
-- Database: TBD
 - Payments: TBD
 - Newsletter: TBD
 - Community: TBD
@@ -30,11 +30,9 @@ Current intended agents:
 
 ## Open Decisions
 
-- Frontend framework
-- Content model
 - Newsletter platform
 - Auth provider
-- Database provider
+- Database provider (Supabase likely)
 - Payment provider
 - Community platform
 - Gated resources model

@@ -20,6 +20,25 @@ Consequences:
 
 ---
 
+### 2026-06-07: Adopt Next.js + Sanity + Vercel as the core stack
+
+Decision:
+Build Aspirationalist on Next.js (frontend), Sanity (CMS), and Vercel (hosting).
+
+Rationale:
+This is the most common modern content/platform stack. It has strong AI tool support (Cursor, Claude, Codex), a clean separation between content editing and code, and scales from a content site into web apps without a rewrite. Sanity gives non-engineers a UI for publishing content without touching code. Vercel gives one-click deploys from GitHub with preview URLs per branch.
+
+Framer was considered as a faster no-code alternative for v1 but rejected in favor of long-term flexibility and compatibility with the agent-assisted build workflow.
+
+Consequences:
+- Next.js is the frontend framework. Do not propose alternatives.
+- Sanity is the CMS. Content types should be defined as Sanity schemas.
+- Vercel is the hosting and deployment platform.
+- GitHub remains the source of truth for code and docs.
+- Supabase is the likely database when auth, gating, or user data is needed.
+
+---
+
 ### 2026-06-07: Move repository outside OneDrive
 
 Decision:
