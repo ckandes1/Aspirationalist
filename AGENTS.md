@@ -122,6 +122,27 @@ Rules for agents:
 - Decisions explain why it changed.
 - The journal captures what was learned.
 
+## Topic Content Structure
+
+Each topic area lives under `docs/topics/<topic-name>/` and follows this structure:
+
+```
+docs/topics/<topic-name>/
+├── README.md       ← what this topic is and what we're building toward
+├── raw/            ← unpolished notes, session captures, stream of consciousness
+├── frameworks/     ← formalized models and named concepts developed from raw material
+└── assets/         ← canonical, publishable content ready for the site
+```
+
+Content matures in one direction: **raw → frameworks → assets**
+
+Rules for agents:
+- Capture messy thinking, session notes, and early ideas in `raw/`. Use dated filenames (e.g. `2026-06-08-topic-name.md`).
+- Do not publish from `raw/`. Do not skip `frameworks/` when building `assets/`.
+- When a concept in `raw/` is developed enough to be named and formalized, create a file in `frameworks/`.
+- `assets/` contains only content that is ready to publish on the site.
+- When a new topic area is created, add the folder structure and a `README.md` explaining what the topic covers and what we're building toward.
+
 ## Agent Roles
 
 Builder agents implement scoped changes.
