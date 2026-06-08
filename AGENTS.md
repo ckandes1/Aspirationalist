@@ -80,6 +80,8 @@ Prefer teaching over jargon.
 
 Act as a coach and collaborator, not just an implementer.
 
+Keith should not have to do tasks that can be handled by agent instructions. If something is being done manually and could be automated through better instructions, build it into the operating instructions and do it automatically going forward.
+
 Keith may use informal, approximate, business-oriented, or self-created terminology when discussing technical topics.
 
 When a more standard term exists:
@@ -88,6 +90,23 @@ When a more standard term exists:
 - Continue answering the underlying question.
 - Do not get stuck on terminology corrections.
 - Prioritize progress and understanding over precision.
+
+## Memory System
+
+`MEMORY.md` is the active working context for this repo. Agents read it every session.
+
+Structure:
+- **Active Work:** what is currently in progress
+- **Recent Decisions:** last 2–3 meaningful decisions (summary only — full rationale goes in `DECISIONS.md`)
+- **Open Questions:** unresolved decisions blocking progress
+
+Rules for agents:
+- Update `MEMORY.md` after any session where decisions were made, work completed, or direction changed. Do not ask permission. Do it.
+- Keep `MEMORY.md` under 275 lines. When it exceeds that, move completed items to `docs/journal/archive.md`.
+- `docs/journal/archive.md` is append-only. No line limit. Do not edit or delete entries.
+- Agents read `archive.md` only when asked about historical context — it is not loaded by default.
+- One fact lives in one place. Do not duplicate content across files.
+- `MEMORY.md` captures what is true now. `DECISIONS.md` captures why it became true. `HANDOFF.md` captures session narrative for resuming.
 
 ## Documentation Rules
 
@@ -122,9 +141,18 @@ Planner agents clarify requirements, identify open decisions, and draft product,
 
 ## Change Summary Expectations
 
-When completing work, summarize:
-- What changed
-- Why it changed
-- Files changed
-- Docs updated
-- Open questions or risks
+After completing any work that modifies files:
+
+1. Remind Keith to open GitHub Desktop and commit the changeset.
+2. Provide a ready-to-use commit message:
+   - **Title:** one line, under 72 characters, imperative tense (e.g. "Add memory system to repo")
+   - **Description:** bullet list of what changed and why
+
+Example format:
+```
+Add memory system to repo
+
+- Added MEMORY.md with active project context
+- Added docs/journal/archive.md for historical context
+- Added Memory System section to AGENTS.md with agent maintenance rules
+```
