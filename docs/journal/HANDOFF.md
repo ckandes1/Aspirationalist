@@ -68,6 +68,46 @@ A full repo audit was completed at project start. Key findings:
 
 ---
 
+## Session Handoff — 2026-06-07 (evening)
+
+Stopping for the night. Current state as of this session ending.
+
+### Completed today (full day)
+
+- Created repo and initial product docs
+- Audited repo — identified contradictions, redundancies, missing docs, open decisions
+- Added `## Working With Keith` section to `AGENTS.md`
+- Fixed PRD MVP goal — removed "blog" framing, aligned with canonical resources decision
+- Moved repo from OneDrive to `C:\dev\Aspirationalist` to prevent Git lock conflicts
+- Created `HANDOFF.md` and added update rule to `AGENTS.md`
+- Recorded OneDrive move in `DECISIONS.md`
+- Created `CONTENT_MODEL.md` — defines Resource types, fields, access model, topic relationships
+- Decided on core stack: Next.js + Sanity + Vercel — recorded in `DECISIONS.md` and `ARCHITECTURE.md`
+
+### Where the strategy conversation landed
+
+The MVP will launch around a single anchor topic: **Analyst Relations**, specifically the **Magic Quadrant**.
+
+The core content angle:
+- Execs misunderstand how the MQ works, what it measures, and what it's worth
+- AR and PMM teams need to reframe this for their leadership ("train-the-leader")
+- The asset concept: something written for execs, distributed to AR/PMM professionals who use it as a train-the-leader resource
+- Working title direction: "What your executives need to understand about the Magic Quadrant"
+- This AR content leads naturally into corporate narrative / corporate thesis content
+
+### Immediate next actions (pick up here)
+
+1. **Define the MQ asset** — Keith to share the key myths and exec misconceptions from this MQ season. That content becomes the asset. Ask: "What are the 2-3 things you wish every exec understood going into MQ season?"
+2. **Spec the launch campaign** — once the asset is defined, map out the LinkedIn distribution strategy
+3. **Write the MVP Spec** — scope v1 site to support this launch: AR topic hub, one anchor resource, home page, about page, newsletter signup
+4. **Start building** — stack is decided, content model is done, next is scaffolding the Next.js + Sanity project
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md and docs/journal/HANDOFF.md first, then tell me what we should work on next.`
+
+---
+
 ## Session Handoff — 2026-06-07
 
 Stopping here for the day. The following is current as of this session ending.
