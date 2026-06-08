@@ -6,21 +6,24 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Active Work
 
-- Defining the MVP anchor asset: Magic Quadrant misconceptions for executives
-- MVP scope not yet written — next major doc to produce
+- AR topic area established — Zone 1/2 framework captured in raw notes, not yet formalized
+- Next step: develop Zone 1/2 into a named framework in `docs/topics/analyst-relations/frameworks/`
+- Then: define the first canonical asset from that framework
+- MVP Spec not yet written
 - Next.js + Sanity + Vercel stack decided, scaffolding not yet started
 
 ## Recent Decisions
 
-- **Stack:** Next.js + Sanity + Vercel (recorded in `docs/build/DECISIONS.md`)
-- **MVP anchor topic:** Analyst Relations / Magic Quadrant
+- **Stack:** Next.js + Sanity + Vercel
+- **MVP anchor topic:** Analyst Relations
 - **Content strategy:** Canonical resources and topic hubs — not articles
-- **Repo location:** `C:\dev\Aspirationalist` (moved out of OneDrive to prevent Git lock conflicts)
-- **AI OS structure:** MEMORY.md (active context) + archive.md (historical) added to repo; memory maintenance rules added to AGENTS.md
+- **Topic structure:** `docs/topics/<topic>/raw/` → `frameworks/` → `assets/`
+- **AI OS structure:** MEMORY.md + archive.md added; memory and commit rules in AGENTS.md
+- **AR thesis:** AR is an intelligence loop, not a megaphone. Zone 2 performance is determined by Zone 1 execution.
 
 ## Open Questions
 
-- What are the 2–3 exec misconceptions about the MQ that Keith wants to address? (This defines the asset)
+- First canonical AR asset — what form does it take?
 - Newsletter platform
 - Community platform
 - Auth provider
