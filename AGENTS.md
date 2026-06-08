@@ -151,9 +151,11 @@ After completing any work that modifies files:
 
 Example format:
 ```
-Add memory system to repo
+[claude] Add memory system to repo
 
 - Added MEMORY.md with active project context
 - Added docs/journal/archive.md for historical context
 - Added Memory System section to AGENTS.md with agent maintenance rules
 ```
+
+The title must be prefixed with the agent that made the changes: `[claude]`, `[codex]`, `[cursor]`, `[chatgpt]`, `[keith]`, etc.
