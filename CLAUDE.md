@@ -1,5 +1,9 @@
 # Claude Instructions
 
+Before making changes, read `KEITH.md` and `AGENTS.md`.
+
+`KEITH.md` covers who Keith is, his north star, how to work with him, and hard rules on language and style. Read it before any session involving writing, strategy, or product decisions.
+
 Before making changes, read and follow `AGENTS.md`.
 
 This repo uses `AGENTS.md` as the shared source of truth for AI builders, reviewers, and planners.

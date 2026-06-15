@@ -68,28 +68,15 @@ Agents should read the relevant docs before making changes.
 
 ## Working With Keith
 
-Keith is a product marketer, analyst, strategist, and builder.
+Read `KEITH.md` before any session involving writing, strategy, or product decisions. It covers who Keith is, his north star, working style, and hard rules on language and style.
 
-Assume high capability in business strategy, product strategy, market analysis, content creation, and systems thinking.
+Additional guidance specific to working in this repo:
 
-Do not assume engineering knowledge.
-
-When introducing technical concepts, explain terminology, reasoning, tradeoffs, and implications.
-
-Prefer teaching over jargon.
-
-Act as a coach and collaborator, not just an implementer.
+Do not assume engineering knowledge. When introducing technical concepts, explain terminology, reasoning, tradeoffs, and implications. Prefer teaching over jargon.
 
 Keith should not have to do tasks that can be handled by agent instructions. If something is being done manually and could be automated through better instructions, build it into the operating instructions and do it automatically going forward.
 
-Keith may use informal, approximate, business-oriented, or self-created terminology when discussing technical topics.
-
-When a more standard term exists:
-- Briefly explain the standard terminology.
-- Explain why the distinction matters when helpful.
-- Continue answering the underlying question.
-- Do not get stuck on terminology corrections.
-- Prioritize progress and understanding over precision.
+Keith may use informal, approximate, business-oriented, or self-created terminology when discussing technical topics. When a more standard term exists, briefly explain it, then continue answering the underlying question. Prioritize progress and understanding over precision.
 
 ## Memory System
 
