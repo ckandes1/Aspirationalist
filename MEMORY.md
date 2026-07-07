@@ -6,12 +6,12 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Active Work
 
-- The MQ Package is the current anchor project.
-- The artifact-first workflow PR has been merged into `main`.
-- Branch `mq-package-project-shell` adds the minimal project README at `docs/projects/mq-package/README.md`.
-- The immediate goal is to consolidate Keith's scattered 2026 MQ season notes into one candid, contextual source document.
-- That source document will support a canonical MQ operating system and later shareable Artifacts such as a book, worksheets, quicksheets, templates, training decks, and distributed content.
-- Existing Zone 1 / Zone 2 notes remain useful source material and should be referenced rather than duplicated.
+- The MQ Package is the current anchor project at `docs/projects/mq-package/`.
+- Branch `mq-2026-source-notes` adds the first consolidated source document at `docs/projects/mq-package/source/2026-mq-season-notes.md`.
+- The source document combines a stage-organized synthesis, candid source library, source inventory, confidence assessment, and missing-source list.
+- The immediate next step is Keith's review for accuracy, missing context, over-generalization, and anything that should remain private.
+- Publication and post-season findings are still pending. The demo workflow remains the largest source gap.
+- Existing Zone 1 / Zone 2 notes remain in the Analyst Relations topic and are referenced rather than duplicated as a separate file.
 - Next.js + Sanity + Vercel stack is decided, scaffolding has not started.
 
 ## Recent Decisions
@@ -21,12 +21,13 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - **Topic:** subject area that can hold topic-level thinking and help people discover related Projects and Artifacts.
 - **Transparency:** public and candid by default; confidentiality is a separate, specific boundary.
 - **Git workflow:** `main` is protected and changes must arrive through pull requests.
-- **Content strategy:** build useful canonical Artifacts first, then derive distributed content from them.
-- **MQ Package:** create the project shell first, then build the consolidated 2026 notes before drafting canonical playbook material.
+- **MQ Package:** source findings must be reviewed and confirmed before they become canonical package guidance.
 
 ## Open Questions
 
-- Final structure and completeness standard for `source/2026-mq-season-notes.md`
+- What context or raw detail is still missing from `source/2026-mq-season-notes.md`?
+- What is the complete demo workflow?
+- Should the next increment fill source gaps or begin a working decision log and package architecture?
 - Whether the public website navigation label remains `Resources` or changes later
 - Newsletter platform
 - Community platform
