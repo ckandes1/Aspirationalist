@@ -14,24 +14,38 @@ They stay because the broader work helps them learn, build, contribute, and incr
 
 ## Canonical Publishing Strategy
 
-Aspirationalist should prioritize owned canonical resources and artifacts.
+Aspirationalist should prioritize owned canonical artifacts.
 
-Canonical resources are the durable source-of-truth pages on the site. They can be updated, improved, shared, linked, gated, bundled, or monetized over time.
+Canonical artifacts are durable outputs that people can use. They can be updated, improved, shared, linked, gated, bundled, or monetized over time.
 
-Distributed content across LinkedIn, newsletters, Substack, video, podcasts, or other channels should point back to these canonical resources when relevant.
+Distributed content across LinkedIn, newsletters, Substack, video, podcasts, or other channels should point back to these canonical artifacts when relevant.
 
 The current model is:
 
-Canonical resource
+Canonical artifact
 → distributed content
 → inbound attention
-→ deeper relationship through newsletter, community, resources, or products
+→ deeper relationship through newsletter, community, additional artifacts, or products
+
+## Artifact-First Development
+
+Projects are the workspaces where practical expertise becomes something useful.
+
+The normal path is:
+
+Source material
+→ working synthesis
+→ canonical method or operating system
+→ shareable artifacts
+→ distributed content
+
+Not every project needs every stage, but distributed content should usually be downstream from useful work rather than the primary output.
 
 ## Content Layers
 
-### 1. Practical Resources
+### 1. Practical Artifacts
 
-Useful, concrete artifacts that help people solve immediate problems.
+Useful, concrete outputs that help people solve immediate problems.
 
 Examples:
 - Gartner briefing guides
@@ -40,7 +54,8 @@ Examples:
 - Market intelligence templates
 - AI agent workflows
 - Non-coder building guides
-- Career switching resources
+- Career switching worksheets
+- Playbooks, quicksheets, checklists, and training decks
 
 ### 2. Strategic Essays
 
@@ -92,11 +107,19 @@ Examples:
 - Aspirationalism
 - Personal Field Notes
 
+## Transparency Principle
+
+Aspirationalist should show the work when the work itself is useful.
+
+Candid notes, mistakes, unfinished thinking, decisions, and process history may remain public when they help other people understand how something was built or learned.
+
+Confidential, licensed, personal, legally restricted, and security-sensitive material should be excluded or redacted specifically. Public candor should not be confused with publishing information Keith does not have the right to share.
+
 ## Publishing Principle
 
 Publish useful artifacts first.
 
-Use practical resources to earn trust, then connect readers to the larger body of work over time.
+Use practical artifacts to earn trust, then connect readers to the larger body of work over time.
 
 ## Working Assumption
 
