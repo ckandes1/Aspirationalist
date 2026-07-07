@@ -75,11 +75,11 @@ This project is focused on the Gartner Magic Quadrant lifecycle from the vendor 
 
 Broader Analyst Relations material belongs here when it directly supports MQ strategy, execution, prioritization, analyst credibility, or year-round company performance. This project should not quietly expand into a complete AR operating system before the MQ Package is built.
 
-## Publishing stance
+## Repository-wide publishing policy
 
-This project is public and candid by default.
+This project follows the Aspirationalist-wide transparency and confidentiality policy in `AGENTS.md`.
 
-Mistakes, unfinished thinking, process details, and changes of mind can remain visible when they help explain the work. Material should be removed or generalized only when it is genuinely confidential, licensed, personal to someone else, legally restricted, or something I do not have the right to publish.
+Public and candid by default applies across the repository. This project does not need a separate publishing stance.
 
 ## How material matures
 
