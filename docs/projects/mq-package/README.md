@@ -12,18 +12,17 @@ The core package comes first. Public content should be derived from the package 
 
 **Source development**
 
-The immediate priority is to consolidate my scattered notes and lessons from the 2026 MQ cycle into one complete source document.
-
-That source document should be candid and contextual. It should preserve what happened, what I learned, what I would do differently, and what is still unresolved.
-
-The intended structure is:
-
-1. A concise, usable synthesis organized by MQ stage
-2. A fuller library of rough notes and supporting material below it
-
-The first planned file is:
+The first consolidated source document now exists:
 
 `source/2026-mq-season-notes.md`
+
+It contains:
+
+1. A concise, usable synthesis organized by MQ stage
+2. A candid source library that preserves reasoning and repeated concerns
+3. A source inventory, confidence assessment, missing-source list, and unresolved questions
+
+It is not complete history yet. Publication, post-season findings, and the demo workflow still need to be added as those sources become available.
 
 ## What the package is building toward
 
@@ -103,4 +102,6 @@ Only create folders and files when the work is ready for them.
 
 ## Next action
 
-Create `source/2026-mq-season-notes.md` as the mostly comprehensive record of the 2026 cycle before creating canonical playbook material.
+Review `source/2026-mq-season-notes.md` for accuracy, missing context, over-generalization, and anything that should remain private.
+
+After that review, either fill the highest-value source gaps or begin the first working document that converts confirmed source findings into explicit package decisions.
