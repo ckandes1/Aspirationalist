@@ -8,70 +8,69 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ### Completed this session
 
-- Confirmed that the artifact-first workflow and MQ Package project shell were merged into `main`.
-- Reviewed the intended repository changes and verified that:
-  - Artifact is the internal shareable-output term.
-  - Topic and Project workflows coexist.
-  - Public and candid by default is repository-wide.
-  - `main` requires pull requests.
-  - The MQ Package has a project README.
-- Created branch `mq-2026-source-notes`.
-- Added `docs/projects/mq-package/source/2026-mq-season-notes.md`.
-- Consolidated the available 2026 MQ sources:
-  - July dictation and conversation
-  - April and May in-cycle planning notes
-  - current punch list
-  - retrospective draft
-  - gated workflow draft
-  - PMM Principal deck process insights
-  - earlier Zone 1 / Zone 2 repository notes
-  - prior MQ Package working synthesis
-- Updated the MQ Package README and `MEMORY.md` to reflect the new source document.
+- Confirmed that the artifact-first workflow, MQ Package project shell, and consolidated 2026 source notes were merged into `main`.
+- Created branch `mq-working-decisions`.
+- Added `docs/projects/mq-package/working/mq-package-decisions-v1.md`.
+- Converted the source record into explicit working decisions covering:
+  - project purpose and scope
+  - lifecycle model
+  - nonnegotiable operating principles
+  - required package architecture
+  - stage-level decisions
+  - open and deferred work
+  - recommended build order
+- Labeled items as Decided, Provisional, Open, or Deferred so unresolved material is not silently treated as canonical.
+- Updated the MQ Package README and `MEMORY.md` to reflect the working-decision phase.
 
-### What the source document contains
+### Current working architecture
 
-The document uses the intended two-speed structure:
+The working document proposes:
 
-1. A usable stage-organized synthesis
-2. A candid source library preserving reasoning and repeated concerns
-3. A source inventory explaining what was included and excluded
-4. Confidence levels and missing-source requests
-5. Open questions that must not be silently converted into canonical guidance
+- one continuous MQ lifecycle
+- the vendor-side coordinator as the primary user
+- one canonical operating-system spine
+- modular stage guidance
+- separate reusable tools and scripts
+- early delegation followed by central synthesis
+- explicit executive accountability
+- protected coordinator processing time
+- a written retrospective at every stage gate
+- fact review constrained to facts and material nuance
+- publication treated as value creation
+- package maintenance as an output of every cycle
 
-The file is intentionally substantial. It is a source record, not a polished playbook.
-
-### Important boundaries
-
-- Licensed Gartner content was not reproduced.
-- Company-specific data, evaluation details, customer information, and confidential strategy were generalized or excluded.
-- Existing Zone 1 / Zone 2 notes were referenced and consolidated without moving or deleting the original file.
-- The earlier workflow draft remains a proposed workflow, not canonical truth.
+These are working decisions until Keith reviews them.
 
 ### Review needed from Keith
 
-Review `docs/projects/mq-package/source/2026-mq-season-notes.md` for:
+Review `docs/projects/mq-package/working/mq-package-decisions-v1.md` for:
 
-- factual accuracy
-- missing context
-- places where the synthesis became too neat or over-generalized
-- candid detail that should be restored
-- content that should remain private or be generalized further
-- whether the source inventory is complete enough
+- items marked Decided that should be Provisional or Open
+- missing nonnegotiable principles
+- whether the lifecycle is correct enough to become the canonical spine
+- whether the proposed architecture matches how the package should be used
+- whether the build order addresses the highest-risk work first
+- places where the document became more certain than the source record supports
 
-The largest known content gap is the demo workflow.
+### Known gaps
 
-### Next decision after review
+- The full demo workflow remains the largest source gap.
+- Publication and immediate post-season findings have not yet occurred or been added.
+- The exact pre-season activation window, final signoff matrix, AI controls, and value measures remain open.
 
-Choose one:
+### Next action after review
 
-1. Fill the highest-value source gaps, starting with a focused demo retrospective and publication/post-season updates.
-2. Begin the first Working Document that turns confirmed source findings into explicit package decisions, lifecycle boundaries, and architecture.
+Revise the working decision set based on Keith's review.
 
-Do not begin canonical playbook drafting until Keith has reviewed the source document.
+After the decisions are approved, create the first canonical spine at:
+
+`docs/projects/mq-package/canonical/mq-operating-system.md`
+
+The canonical spine should contain approved foundation only. It should not resolve open questions by assumption.
 
 ### To resume with an AI agent
 
-Say: `Read AGENTS.md, MEMORY.md, docs/journal/HANDOFF.md, and docs/projects/mq-package/source/2026-mq-season-notes.md. Continue from Keith's source-document review.`
+Say: `Read AGENTS.md, MEMORY.md, docs/journal/HANDOFF.md, the 2026 MQ source notes, and mq-package-decisions-v1.md. Continue from Keith's review of the working decisions.`
 
 ---
 

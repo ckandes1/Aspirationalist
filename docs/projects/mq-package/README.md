@@ -10,19 +10,21 @@ The core package comes first. Public content should be derived from the package 
 
 ## Current phase
 
-**Source development**
+**Working decisions**
 
-The first consolidated source document now exists:
+The first consolidated source document exists:
 
 `source/2026-mq-season-notes.md`
 
-It contains:
+The first working decision document also exists:
 
-1. A concise, usable synthesis organized by MQ stage
-2. A candid source library that preserves reasoning and repeated concerns
-3. A source inventory, confidence assessment, missing-source list, and unresolved questions
+`working/mq-package-decisions-v1.md`
 
-It is not complete history yet. Publication, post-season findings, and the demo workflow still need to be added as those sources become available.
+The source file preserves the 2026 experience, reasoning, contradictions, and gaps. The working file converts that material into explicit proposed decisions, provisional choices, deferred work, and open questions.
+
+Nothing in the working document is canonical until it is reviewed and approved.
+
+Publication, post-season findings, and the demo workflow still need to be added as those sources become available.
 
 ## What the package is building toward
 
@@ -53,7 +55,7 @@ The current stage model is:
 8. Publication and value capture
 9. Return to post-season
 
-This is a working model. The source notes may refine the boundaries and names.
+This is a working model. The source notes and decision review may refine the boundaries and names.
 
 ## Source material already identified
 
@@ -99,9 +101,10 @@ Only create folders and files when the work is ready for them.
 - Treat the MQ Package as the canonical core.
 - Derive books, quicksheets, decks, posts, and other artifacts from that core.
 - Build in small, reviewable increments.
+- Keep working decisions explicitly labeled until they are approved for canonical use.
 
 ## Next action
 
-Review `source/2026-mq-season-notes.md` for accuracy, missing context, over-generalization, and anything that should remain private.
+Review `working/mq-package-decisions-v1.md`.
 
-After that review, either fill the highest-value source gaps or begin the first working document that converts confirmed source findings into explicit package decisions.
+The review should focus on whether the lifecycle, nonnegotiable operating principles, required package architecture, open decisions, and proposed build order are correct. After that, either revise the working decision set or begin the canonical operating-system spine with approved material only.
