@@ -67,3 +67,56 @@ Consequences:
 - Tool-specific files should stay lightweight and point back to `AGENTS.md`.
 - Future agent integrations should be configured to read or follow `AGENTS.md`.
 - Changes to agent behavior should usually be made in `AGENTS.md` first.
+
+---
+
+### 2026-07-07: Use Artifact as the canonical content object
+
+Decision:
+Use `Artifact` as the internal term for a polished, shareable output that delivers standalone value to another person.
+
+Projects are active workspaces. They use Sources and Working Documents to develop Canonical Material and produce Artifacts. Topics group related Projects and Artifacts for discovery.
+
+Rationale:
+`Artifact` tells Keith that an output is intended to leave the workspace and be useful to someone else. `Resource` had become ambiguous because it could also describe private reference material.
+
+Consequences:
+- The internal content model uses `Artifact` instead of `Resource`.
+- The normal development path is `source → working → canonical → artifact`.
+- Topic pages link to Projects and Artifacts instead of duplicating files.
+- Existing topic folders remain until a deliberate migration is approved.
+- The public site may still use `Resources` as a navigation label if that is clearer to visitors.
+
+---
+
+### 2026-07-07: Work publicly and candidly by default
+
+Decision:
+Aspirationalist projects, notes, decisions, mistakes, drafts, and internal reasoning may be public by default.
+
+Confidentiality is handled as a specific boundary. Material is excluded or redacted when Keith does not have the right to share it, or when it exposes private information about someone else.
+
+Rationale:
+Keith is highly transparent and candid. The inner workings of a project can be useful content and evidence of how expertise develops. Unpolished or critical material is not automatically confidential.
+
+Consequences:
+- Agents preserve useful unfinished thinking and decision history.
+- Agents do not sanitize work merely because it reveals mistakes or uncertainty.
+- Agents flag specific confidentiality concerns instead of making an entire project private by default.
+- Keith retains final judgment about what he publishes.
+
+---
+
+### 2026-07-07: Require pull requests for main
+
+Decision:
+Protect the `main` branch and require repository changes to arrive through a pull request.
+
+Rationale:
+Multiple AI agents may work in the repository. Pull requests create a consistent review checkpoint before changes become canonical.
+
+Consequences:
+- Agents create a branch for repository changes.
+- Agents open a pull request and summarize what Keith should review.
+- Direct commits to `main` are blocked.
+- Keith merges after reviewing the changed files.
