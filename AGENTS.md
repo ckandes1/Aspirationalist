@@ -101,7 +101,7 @@ Use these terms consistently:
 - **Canonical material:** the current authoritative method, model, operating system, or body of guidance for a project.
 - **Artifact:** a polished, standalone output intended to be shared and used by someone else.
 - **Project:** an active body of work with a goal, source material, working documents, canonical material, and one or more potential artifacts.
-- **Topic:** a discovery and context layer that groups related projects and artifacts by subject.
+- **Topic:** a subject area that can hold topic-level thinking and help people discover related projects and artifacts.
 
 A file should have one primary home. Link to it from other places instead of copying it.
 
@@ -136,9 +136,32 @@ Rules for agents:
 - Decisions explain why it changed.
 - The journal captures what was learned.
 
-## Project, Topic, and Artifact Structure
+## Topic Content Structure
 
-Active work should normally live under `docs/projects/<project-name>/`.
+Each topic area may continue to use the existing structure:
+
+```text
+docs/topics/<topic-name>/
+├── README.md       ← what this topic is and what we're building toward
+├── raw/            ← unpolished notes, session captures, stream of consciousness
+├── frameworks/     ← formalized models and named concepts developed from raw material
+└── assets/         ← shareable outputs ready for other people to use
+```
+
+Content can mature in one direction: **raw → frameworks → assets**.
+
+Rules for agents:
+- Capture messy thinking, session notes, and early ideas in `raw/`. Use dated filenames.
+- Do not publish directly from `raw/`.
+- When a concept in `raw/` is developed enough to be named and formalized, create a file in `frameworks/`.
+- `assets/` contains only content intentionally designed for other people to use.
+- When a new topic area is created, add a `README.md` explaining what the topic covers and what we're building toward.
+
+## Project Structure
+
+Use a Project when the work has a defined outcome, multiple source documents, a canonical body of material, or several related artifacts.
+
+Active projects should normally live under `docs/projects/<project-name>/`.
 
 Create only the folders needed for the current work. A project may contain:
 
@@ -151,9 +174,7 @@ docs/projects/<project-name>/
 └── artifacts/      ← polished outputs intended to be shared and used
 ```
 
-Topics live under `docs/topics/` and act as discovery and context pages. They should point to relevant projects and artifacts. They should not become duplicate production workspaces.
-
-The normal maturity path is:
+The normal project maturity path is:
 
 **source → working → canonical → artifact**
 
@@ -164,8 +185,8 @@ Rules for agents:
 - Preserve uncertainty and contradictions in source documents until they are resolved.
 - Do not silently promote a working assumption into canonical material.
 - Put shareable outputs in `artifacts/` only when they are intentionally designed for other people to use.
-- Link artifacts from topic pages instead of duplicating them.
-- Existing topic folders using `raw/`, `frameworks/`, and `assets/` may remain until a deliberate migration is approved.
+- Link projects and artifacts from topic pages when useful.
+- Do not move existing topic files into projects unless a deliberate migration is approved.
 
 ## Agent Roles
 
