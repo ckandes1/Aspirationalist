@@ -4,34 +4,51 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
-## Session Handoff — 2026-06-08
+## Session Handoff — 2026-07-07
 
 ### Completed this session
 
-- Built out the AI operating system for the repo: added `MEMORY.md`, `docs/journal/archive.md`, Memory System rules, topic content taxonomy, commit conventions, and agent tagging to `AGENTS.md`
-- Established topic folder structure: `docs/topics/<topic>/raw/`, `frameworks/`, `assets/`
-- Created `docs/topics/analyst-relations/` as the first topic area
-- Captured Zone 1 / Zone 2 framework thinking in `docs/topics/analyst-relations/raw/2026-06-08-zone-framework.md`
-- Clarified the strategic thesis: AR is an intelligence function that feeds business strategy, not a megaphone. Zone 2 performance is determined by Zone 1 execution.
+- Audited the existing Aspirationalist repository and current topic structure.
+- Confirmed that the MQ Package should live inside Aspirationalist as a project rather than as a separate repository.
+- Clarified the model:
+  - Projects are active workspaces.
+  - Artifacts are shareable outputs intended to deliver practical value.
+  - Topics are discovery and context layers that group related Projects and Artifacts.
+- Chose `Artifact` as the internal term instead of `Resource` because it clearly signals that the output is intended to be shared and used.
+- Established the default publishing stance: public and candid by default, with confidential material handled as a separate and specific boundary.
+- Protected the `main` branch so changes must go through pull requests.
+- Tested the rule successfully. GitHub rejected a direct write to `main`.
+- Created branch `artifact-first-workflow` and updated the repo instructions, content model, content strategy, decisions, memory, and this handoff.
 
-### Where the content angle landed
+### MQ Package direction
 
-The MVP anchor is Analyst Relations. The thesis is sharper than originally framed:
+The MQ Package is intended to become Keith's canonical operating system for running Gartner MQ season from end to end.
 
-- Most companies treat AR as outbound communications. The real value is the intelligence loop: AR signals in → business thesis → roadmap → execution → something real to show analysts.
-- Zone 2 (MQ season) performance is determined by Zone 1 (always-on) execution. By the time the welcome packet arrives, the score is mostly written.
-- Keith is transitioning out of Zone 2 at work, which creates a window to templatize this MQ season's materials into a fractional AR offering — which also becomes Aspirationalist anchor content.
+The project will begin with source documents, especially one mostly comprehensive file that consolidates Keith's candid notes and lessons from the 2026 MQ cycle. That source file should have:
+
+1. A concise, usable synthesis at the top
+2. The fuller rough notes and supporting material below
+
+The canonical package will be developed from those source documents. Shareable Artifacts may later include a public-facing playbook or book, worksheets, quicksheets, templates, training decks, and distributed content.
 
 ### Immediate next actions
 
-1. **Develop the Zone 1/2 framework** — move from raw notes toward a named, formalized framework in `docs/topics/analyst-relations/frameworks/`
-2. **Define the first asset** — what is the canonical publishable piece that comes out of this framework?
-3. **Write the MVP Spec** — scope v1 site: AR topic hub, one anchor resource, home, about, newsletter signup
-4. **Scaffold the build** — Next.js + Sanity + Vercel, stack is decided
+1. Review pull request for branch `artifact-first-workflow`.
+2. Merge it if the definitions and rules are correct.
+3. Create the minimal project shell under `docs/projects/mq-package/`.
+4. Build the consolidated `source/2026-mq-season-notes.md` document before drafting the canonical playbook.
+5. Reference existing Zone 1 / Zone 2 notes rather than duplicating them.
+
+### Guardrails
+
+- Make changes in small, reviewable increments.
+- Do not move or migrate existing topic files until the new project structure is proven useful.
+- Do not create empty folders for future work.
+- Preserve candid process detail unless it is genuinely confidential or Keith does not have the right to publish it.
 
 ### To resume with an AI agent
 
-Say: `Read AGENTS.md, MEMORY.md, and docs/journal/HANDOFF.md, then tell me what we should work on next.`
+Say: `Read AGENTS.md, MEMORY.md, and docs/journal/HANDOFF.md. Then continue the MQ Package project from the next uncompleted action.`
 
 ---
 
