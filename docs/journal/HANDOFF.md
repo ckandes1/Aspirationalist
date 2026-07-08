@@ -4,6 +4,88 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-07-08
+
+### Completed this session
+
+- Reviewed the repository content model, topic structure, information architecture, memory rules, and recent project workflow.
+- Determined that the new insight should begin as a raw topic note rather than canonical material or a separate project.
+- Chose `Personal Field Notes` because the idea begins with lived experience and that topic already exists in the planned information architecture.
+- Created branch `capture-vision-to-execution` and pull request #5.
+- Added `skills/canonical-topic-capture/SKILL.md` as a reusable workflow for turning stream-of-consciousness insights into structured raw material.
+- Added `docs/topics/personal-field-notes/README.md`.
+- Added `docs/topics/personal-field-notes/raw/2026-07-08-vision-to-execution.md`.
+- Recorded the canonical-topic capture workflow in `docs/build/DECISIONS.md`.
+- Updated `MEMORY.md` with the new capture workflow, note, and open maturity decision.
+- Keith reviewed the first capture and identified a source-fidelity failure: the note captured the proposed system but weakened the central tension and causal chain involving direction, messiness, structure, tracking, and visible momentum.
+- Revised the raw note to lead with that tension, explain the full cause-and-effect chain, and make milestones, tracking, and review explicit.
+- Added the complete original stream-of-consciousness submission in a collapsible source appendix.
+- Revised the capture skill to require a fidelity map, original-source preservation, and a source-to-note comparison before committing.
+
+### Captured idea
+
+The raw note documents the missing execution layer between a long-term vision and daily activity.
+
+The current working chain is:
+
+`vision → hypotheses → project → 30–90 day scope → milestones → weekly outcomes → daily tasks → tracking and review`
+
+The central tension is:
+
+- a person can have a genuine long-term direction;
+- many small actions can plausibly support that direction;
+- the work can still feel messy and directionless;
+- the feeling comes from having no structure or tracking that shows whether the actions are creating effective momentum.
+
+The note now preserves:
+
+- the paradox of having direction while feeling directionless;
+- the messy felt experience;
+- the causal chain from many plausible actions to absent structure and evidence;
+- the hypothesis and project layers that create focus;
+- the role of a bounded 30–90 day scope and milestones;
+- the role of tracking and review in making momentum visible;
+- a proposed weekly and daily planning rhythm; and
+- unresolved questions that should remain open before the idea becomes a framework.
+
+### Capture-workflow learning
+
+A structured synthesis can preserve the conclusion while losing the mechanism that made the conclusion meaningful.
+
+Future captures should explicitly identify:
+
+- the central tension;
+- the felt experience;
+- the complete causal chain;
+- repeated language and emphasis;
+- the missing mechanism;
+- the emerging solution; and
+- remaining uncertainty.
+
+The original source should be preserved by default so Keith and future agents can verify or reinterpret the synthesis.
+
+### Important boundary
+
+The note is intentionally labeled raw and non-canonical. The structure makes it usable and retrievable without presenting the emerging system as proven guidance.
+
+Keith's review remains the final fidelity check. The skill is designed to reduce predictable loss before that review.
+
+### Possible future direction
+
+After the idea has been tested in practice, decide whether it should become:
+
+- a general vision-to-execution framework;
+- a personal operating system;
+- a planning worksheet or artifact;
+- part of a larger human-potential project; or
+- source material that remains in Personal Field Notes.
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md, KEITH.md, MEMORY.md, docs/journal/HANDOFF.md, skills/canonical-topic-capture/SKILL.md, and the vision-to-execution raw note. Continue from Keith's review of the revised capture.`
+
+---
+
 ## Session Handoff — 2026-07-07
 
 ### Completed this session

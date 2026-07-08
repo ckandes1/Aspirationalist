@@ -120,3 +120,22 @@ Consequences:
 - Agents open a pull request and summarize what Keith should review.
 - Direct commits to `main` are blocked.
 - Keith merges after reviewing the changed files.
+
+---
+
+### 2026-07-08: Capture potential canonical topics as structured raw notes
+
+Decision:
+When Keith shares an experience, insight, or stream-of-consciousness learning that may become canonical later, capture it first as a dated raw topic note using `skills/canonical-topic-capture/SKILL.md`.
+
+The raw note should preserve the situation, felt pain, emerging mechanism, proposed solution, and unresolved questions. It should remain visibly non-canonical until Keith deliberately develops and approves it as a framework or project.
+
+Rationale:
+Keith frequently develops useful ideas through verbal reflection but does not consistently document them. Moving directly from dictation to polished guidance can remove the pain that made the insight meaningful and harden an early hypothesis before it has been tested.
+
+Consequences:
+- Agents use the canonical topic capture skill when Keith asks to save raw material for later.
+- Personal experiences default to `Personal Field Notes` when no more specific established topic fits.
+- New topics are created only for durable subject areas likely to contain multiple notes, frameworks, projects, or artifacts.
+- Raw notes keep one primary home and may be linked elsewhere later.
+- Promotion from raw material to framework or canonical guidance requires deliberate review.
