@@ -13,8 +13,8 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - Keith's review is required before approved material moves into the canonical operating system.
 - Publication and post-season findings are still pending. The demo workflow remains the largest source gap.
 - Existing Zone 1 / Zone 2 notes remain in the Analyst Relations topic and are referenced rather than moved.
-- Branch `capture-vision-to-execution` adds a reusable canonical-topic capture skill, the Personal Field Notes topic, and the first raw note on connecting long-term vision to daily execution.
-- The vision-to-execution note remains raw material. Its current chain is `vision → hypotheses → project → 30–90 day scope → weekly outcomes → daily tasks → review and measurement`.
+- The Personal Field Notes topic is merged at `docs/topics/personal-field-notes/` with a reusable canonical-topic capture skill.
+- The vision-to-execution note remains raw material. Its current chain is `vision → hypotheses → project → 30–90 day scope → milestones → weekly outcomes → daily tasks → tracking and review`.
 - Next.js + Sanity + Vercel stack is decided, scaffolding has not started.
 
 ## Recent Decisions
