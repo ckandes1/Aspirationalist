@@ -4,6 +4,67 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-07-08
+
+### Completed this session
+
+- Reviewed the repository content model, topic structure, information architecture, memory rules, and recent project workflow.
+- Determined that the new insight should begin as a raw topic note rather than canonical material or a separate project.
+- Chose `Personal Field Notes` because the idea begins with lived experience and that topic already exists in the planned information architecture.
+- Created branch `capture-vision-to-execution`.
+- Added `skills/canonical-topic-capture/SKILL.md` as a reusable workflow for turning stream-of-consciousness insights into structured raw material.
+- Added `docs/topics/personal-field-notes/README.md`.
+- Added `docs/topics/personal-field-notes/raw/2026-07-08-vision-to-execution.md`.
+- Recorded the canonical-topic capture workflow in `docs/build/DECISIONS.md`.
+- Updated `MEMORY.md` with the new capture workflow, note, and open maturity decision.
+
+### Captured idea
+
+The raw note documents the missing execution layer between a long-term vision and daily activity.
+
+The current working chain is:
+
+`vision → hypotheses → project → 30–90 day scope → weekly outcomes → daily tasks → review and measurement`
+
+The note preserves:
+
+- the original pain of feeling directionless despite having a long-term direction;
+- why counting any vision-related daily action as a win was insufficient;
+- the hypothesis and project layers that create focus;
+- the role of a bounded 30–90 day scope;
+- a proposed weekly and daily planning rhythm; and
+- unresolved questions that should remain open before the idea becomes a framework.
+
+### Important boundary
+
+The note is intentionally labeled raw and non-canonical. The structure makes it usable and retrievable without presenting the emerging system as proven guidance.
+
+### Review needed from Keith
+
+Review the raw note for:
+
+- whether it preserves the real pain and learning;
+- whether any distinctions were cleaned up too much;
+- whether the execution chain accurately reflects the idea;
+- whether important examples or unresolved tensions are missing; and
+- whether `Personal Field Notes` is the right primary home.
+
+### Possible future direction
+
+After the idea has been tested in practice, decide whether it should become:
+
+- a general vision-to-execution framework;
+- a personal operating system;
+- a planning worksheet or artifact;
+- part of a larger human-potential project; or
+- source material that remains in Personal Field Notes.
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md, KEITH.md, MEMORY.md, docs/journal/HANDOFF.md, skills/canonical-topic-capture/SKILL.md, and the vision-to-execution raw note. Continue from Keith's review of the captured idea.`
+
+---
+
 ## Session Handoff — 2026-07-07
 
 ### Completed this session
