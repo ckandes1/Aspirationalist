@@ -28,7 +28,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - **Transparency:** public and candid by default; confidentiality is a separate, specific boundary.
 - **Git workflow:** `main` is protected and changes must arrive through pull requests.
 - **MQ Package:** source findings move through a working-decision review before entering canonical guidance.
-- **MQ source intake:** NotebookLM holds unstructured assets before processing; GitHub is the structured and authoritative project record.
+- **External source intake:** tools such as NotebookLM may hold unstructured material before processing; GitHub remains the structured and authoritative record.
 - **MQ commercialization:** the package and usable deliverables come before consulting GTM, pricing, or broad campaign development.
 - **Canonical topic capture:** potential canonical ideas are preserved first as structured, dated raw notes before they are promoted into frameworks or projects.
 
