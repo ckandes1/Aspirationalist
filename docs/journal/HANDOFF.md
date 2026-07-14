@@ -10,8 +10,10 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 - Reviewed the proposed project-pointer draft against the existing MQ Package project structure.
 - Confirmed that the root README should remain repository-wide and that the MQ Package project is the primary home for this material.
-- Defined NotebookLM as the pre-structure intake workspace for unstructured MQ source assets.
-- Preserved GitHub as the authoritative record once material is converted into structured project files.
+- Defined external tools such as NotebookLM as pre-structure intake workspaces for unstructured source assets.
+- Preserved GitHub as the authoritative record once material is converted into structured project or topic files.
+- Defined the external-source-intake rule as a repository-wide workflow decision rather than an MQ-specific rule.
+- Documented the MQ Package as the first active implementation of that workflow through the NotebookLM project `"MQ Package" Content for Aspirationalist`.
 - Added `docs/projects/mq-package/source/notebooklm-source-index.md` to document the external source inventory, authority rule, processing queue, constraints, and intake statuses.
 - Expanded `docs/projects/mq-package/README.md` with:
   - the dual internal and future-consulting purpose
@@ -19,13 +21,21 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
   - the current build sequence
   - the diagnostic scorecard and executive education deck as future outputs
   - the boundary against premature automation and parallel generic content work
-- Added the durable source-intake decision to `docs/build/DECISIONS.md`.
-- Updated `MEMORY.md` with the current MQ priority, source-intake model, and next sequence.
-- Created branch `agent/document-mq-notebooklm-intake`.
+- Added the durable repository-wide source-intake decision to `docs/build/DECISIONS.md`.
+- Updated `MEMORY.md` with the general intake rule and the current MQ implementation.
+- Created branch `agent/document-mq-notebooklm-intake` and draft pull request #10.
 
-### Current operating rule
+### Repository-wide operating rule
 
-Use this progression:
+External tools may hold source material before it is ready for the repository. GitHub becomes authoritative when material is deliberately processed into the appropriate project or topic structure.
+
+The general progression is:
+
+`external intake → GitHub source or raw material → working or frameworks → canonical → artifacts → distribution`
+
+### MQ Package implementation
+
+For the MQ Package, the current implementation is:
 
 `NotebookLM intake → GitHub source → working → canonical → artifacts → distribution`
 
@@ -43,7 +53,7 @@ NotebookLM may contain raw assets and exploratory synthesis. GitHub becomes auth
 
 ### Important boundaries
 
-- Do not treat NotebookLM-generated synthesis as canonical.
+- Do not treat external AI-generated synthesis as canonical.
 - Do not reproduce licensed Gartner research.
 - Do not duplicate source material without a reason.
 - Do not create a separate generic content workspace for unfinished MQ material.
