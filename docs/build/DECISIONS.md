@@ -139,3 +139,22 @@ Consequences:
 - New topics are created only for durable subject areas likely to contain multiple notes, frameworks, projects, or artifacts.
 - Raw notes keep one primary home and may be linked elsewhere later.
 - Promotion from raw material to framework or canonical guidance requires deliberate review.
+
+---
+
+### 2026-07-14: Use NotebookLM as MQ Package source intake
+
+Decision:
+Use the NotebookLM project `"MQ Package" Content for Aspirationalist` as the pre-structure intake workspace for unstructured MQ source assets.
+
+GitHub remains the source of truth. Once material is reviewed and converted into structured project material, it must have one primary home under `docs/projects/mq-package/source/`, `working/`, `canonical/`, or `artifacts/`.
+
+Rationale:
+The MQ Package has a growing set of audio transcripts, decks, notes, prompts, campaign drafts, and planning material that are useful before they are ready for the repository's structured maturity path. NotebookLM provides a practical workspace for collecting and exploring those sources. Treating it as canonical would create competing sources of truth and make it unclear which guidance has been reviewed.
+
+Consequences:
+- The MQ Package README documents the intake and authority rule.
+- `docs/projects/mq-package/source/notebooklm-source-index.md` tracks the external source inventory and processing queue.
+- NotebookLM summaries and generated output remain non-canonical until deliberately processed into GitHub.
+- Public content and consulting materials are derived from the package rather than developed in a separate generic content workspace.
+- Automated synchronization is deferred until the package and intake workflow are stable.
