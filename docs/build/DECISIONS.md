@@ -139,3 +139,25 @@ Consequences:
 - New topics are created only for durable subject areas likely to contain multiple notes, frameworks, projects, or artifacts.
 - Raw notes keep one primary home and may be linked elsewhere later.
 - Promotion from raw material to framework or canonical guidance requires deliberate review.
+
+---
+
+### 2026-07-14: Use external workspaces for pre-structure source intake
+
+Decision:
+Use external tools such as NotebookLM as intake and exploration workspaces for source material that has not yet been converted into the repository's structured content model.
+
+GitHub remains the source of truth. Once material is reviewed and converted into structured project or topic material, it must have one primary home under the appropriate `source`, `raw`, `working`, `frameworks`, `canonical`, or `artifacts` directory.
+
+Rationale:
+Some source assets are easier to collect, search, compare, and explore in tools designed for unstructured material. These tools support the work before the material is mature enough for the repository. Treating an external workspace as canonical would create competing sources of truth and make it unclear which material has been reviewed, approved, or incorporated.
+
+Consequences:
+- External workspaces may hold transcripts, decks, notes, prompts, drafts, research, and exploratory synthesis.
+- External summaries and AI-generated output remain non-canonical until deliberately processed into GitHub.
+- Each project or topic may document its specific intake workspace and processing queue.
+- Structured material keeps one primary home in the repository.
+- Public content and reusable artifacts are derived from the repository's canonical material.
+- Automated synchronization is deferred until the intake and processing workflow is stable.
+
+The MQ Package is the first active implementation of this workflow through the NotebookLM project `"MQ Package" Content for Aspirationalist`.

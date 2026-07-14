@@ -4,9 +4,12 @@
 
 The MQ Package is my canonical operating system for running a Gartner Magic Quadrant cycle from end to end.
 
-I am building it first so I can run the next MQ season better. I also want the work to become useful to other people through public artifacts such as a playbook or book, worksheets, quicksheets, templates, training decks, and distributed content.
+The project serves two connected goals:
 
-The core package comes first. Public content should be derived from the package rather than developed separately from it.
+1. Improve how I run future MQ cycles by replacing scattered experience with a reusable operating system.
+2. Build transferable tools and deliverables that can eventually support an Analyst Relations consulting offer.
+
+The core package comes first. Public content, consulting positioning, pricing, and broader GTM should be derived from a substantive package rather than developed around an empty offer.
 
 ## Current phase
 
@@ -26,6 +29,32 @@ Nothing in the working document is canonical until it is reviewed and approved.
 
 Publication, post-season findings, and the demo workflow still need to be added as those sources become available.
 
+## Source intake and authority
+
+The NotebookLM project `"MQ Package" Content for Aspirationalist` is the pre-structure intake workspace for this project.
+
+Use NotebookLM to collect unstructured source assets such as audio transcripts, slide decks, loose notes, campaign drafts, prompts, and planning material before they have been converted into durable repository files.
+
+GitHub remains the source of truth for the MQ Package. Once source material has been processed, it should have one primary home under:
+
+`source → working → canonical → artifacts`
+
+The detailed external-source inventory and processing queue live in:
+
+`source/notebooklm-source-index.md`
+
+Do not treat NotebookLM synthesis or generated output as canonical guidance. Do not create a parallel generic content workspace for this project. Public content should be produced from the MQ Package as an Artifact or distribution output when the underlying material is ready.
+
+Do not build automated synchronization or complex workflows between NotebookLM and GitHub yet. The current priority is building and validating the package itself.
+
+## Current build sequence
+
+1. Review `working/mq-package-decisions-v1.md`.
+2. Process the NotebookLM sources that could change or complete those decisions, especially the demo workflow, publication, post-season findings, and strategic source gaps.
+3. Revise the working decisions and begin the canonical operating-system spine with approved material.
+4. Build the diagnostic scorecard and executive education deck from the canonical core.
+5. Define the consulting GTM after the package contains substantive, usable deliverables.
+
 ## What the package is building toward
 
 The package will eventually contain:
@@ -38,6 +67,8 @@ The package will eventually contain:
 - worksheets, trackers, and templates
 - training materials
 - retrospectives and improvement mechanisms
+- a diagnostic scorecard for assessing MQ and AR maturity
+- an executive education deck addressing MQ mechanics, myths, and productive executive behavior
 
 The likely public-facing playbook or book is one artifact from the package. It is not the package by itself.
 
@@ -67,6 +98,7 @@ This is a working model. The source notes and decision review may refine the bou
 - MQ strategy and status slides in the PMM Principal deck
 - campaign and enablement planning
 - existing Zone 1 / Zone 2 notes under the Analyst Relations topic
+- project blueprints, strategic directives, campaign drafts, offer notes, and audio transcripts collected in NotebookLM
 
 Existing source material should be referenced or incorporated deliberately. Do not duplicate files automatically.
 
@@ -75,6 +107,8 @@ Existing source material should be referenced or incorporated deliberately. Do n
 This project is focused on the Gartner Magic Quadrant lifecycle from the vendor side.
 
 Broader Analyst Relations material belongs here when it directly supports MQ strategy, execution, prioritization, analyst credibility, or year-round company performance. This project should not quietly expand into a complete AR operating system before the MQ Package is built.
+
+The strategic consulting wedge is Gartner AR, but the consulting offer remains downstream from the package. Broader multi-threaded Aspirationalist content should not displace the current effort to build this specialized operating system.
 
 ## Repository-wide publishing policy
 
@@ -97,14 +131,17 @@ Only create folders and files when the work is ready for them.
 
 - Build the source documents before drafting the final playbook.
 - Preserve candid context instead of sanitizing the learning process.
+- Use NotebookLM as the external intake location for unstructured MQ source assets.
+- Make GitHub authoritative once source material has been converted into structured project material.
 - Use one primary home for each file and link to it elsewhere.
 - Treat the MQ Package as the canonical core.
-- Derive books, quicksheets, decks, posts, and other artifacts from that core.
+- Derive books, quicksheets, decks, posts, consulting materials, and other artifacts from that core.
 - Build in small, reviewable increments.
 - Keep working decisions explicitly labeled until they are approved for canonical use.
+- Defer automation until the package and intake workflow are stable.
 
 ## Next action
 
-Review `working/mq-package-decisions-v1.md`.
+Review `working/mq-package-decisions-v1.md` alongside `source/notebooklm-source-index.md`.
 
-The review should focus on whether the lifecycle, nonnegotiable operating principles, required package architecture, open decisions, and proposed build order are correct. After that, either revise the working decision set or begin the canonical operating-system spine with approved material only.
+The review should identify which NotebookLM sources could materially change the lifecycle, operating principles, package architecture, open decisions, or proposed build order. After that, process the highest-value missing sources before beginning the canonical operating-system spine.
