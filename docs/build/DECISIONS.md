@@ -142,19 +142,22 @@ Consequences:
 
 ---
 
-### 2026-07-14: Use NotebookLM as MQ Package source intake
+### 2026-07-14: Use external workspaces for pre-structure source intake
 
 Decision:
-Use the NotebookLM project `"MQ Package" Content for Aspirationalist` as the pre-structure intake workspace for unstructured MQ source assets.
+Use external tools such as NotebookLM as intake and exploration workspaces for source material that has not yet been converted into the repository's structured content model.
 
-GitHub remains the source of truth. Once material is reviewed and converted into structured project material, it must have one primary home under `docs/projects/mq-package/source/`, `working/`, `canonical/`, or `artifacts/`.
+GitHub remains the source of truth. Once material is reviewed and converted into structured project or topic material, it must have one primary home under the appropriate `source`, `raw`, `working`, `frameworks`, `canonical`, or `artifacts` directory.
 
 Rationale:
-The MQ Package has a growing set of audio transcripts, decks, notes, prompts, campaign drafts, and planning material that are useful before they are ready for the repository's structured maturity path. NotebookLM provides a practical workspace for collecting and exploring those sources. Treating it as canonical would create competing sources of truth and make it unclear which guidance has been reviewed.
+Some source assets are easier to collect, search, compare, and explore in tools designed for unstructured material. These tools support the work before the material is mature enough for the repository. Treating an external workspace as canonical would create competing sources of truth and make it unclear which material has been reviewed, approved, or incorporated.
 
 Consequences:
-- The MQ Package README documents the intake and authority rule.
-- `docs/projects/mq-package/source/notebooklm-source-index.md` tracks the external source inventory and processing queue.
-- NotebookLM summaries and generated output remain non-canonical until deliberately processed into GitHub.
-- Public content and consulting materials are derived from the package rather than developed in a separate generic content workspace.
-- Automated synchronization is deferred until the package and intake workflow are stable.
+- External workspaces may hold transcripts, decks, notes, prompts, drafts, research, and exploratory synthesis.
+- External summaries and AI-generated output remain non-canonical until deliberately processed into GitHub.
+- Each project or topic may document its specific intake workspace and processing queue.
+- Structured material keeps one primary home in the repository.
+- Public content and reusable artifacts are derived from the repository's canonical material.
+- Automated synchronization is deferred until the intake and processing workflow is stable.
+
+The MQ Package is the first active implementation of this workflow through the NotebookLM project `"MQ Package" Content for Aspirationalist`.
