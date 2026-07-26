@@ -167,7 +167,7 @@ The MQ Package is the first active implementation of this workflow through the N
 ### 2026-07-26: Separate personal projects by path
 
 Decision:
-Work that is not Aspirationalist — real estate, household, family, personal finance — lives under `docs/personal/<project-name>/`, using the same structure and maturity path as `docs/projects/`. The path is the only marker. No `personal:` or `context:` field is added anywhere.
+Work that is not Aspirationalist, including real estate, household, family, and personal finance, lives under `docs/personal/<project-name>/`, using the same structure and maturity path as `docs/projects/`. The path is the only marker. No `personal:` or `context:` field is added anywhere.
 
 `docs/projects/` remains the default. `docs/personal/` is used only when a project clearly sits outside the platform.
 
@@ -180,7 +180,7 @@ Consequences:
 - Agents ask rather than guess when classification is genuinely ambiguous.
 - Agents do not move projects between the two locations without approval, because reclassification breaks links.
 - Thinking from a personal project that is useful publicly is written as an artifact under the relevant topic and linked back, rather than by relocating the project.
-- The repository remains public and the existing transparency rules apply unchanged. Personal projects encounter third-party and financial specifics more often, so agents flag the specific passage — addresses, account numbers, counterparty names, figures — rather than making a whole project private.
+- The repository remains public and the existing transparency rules apply unchanged. Personal projects encounter third-party and financial specifics more often, so agents flag the specific passage, such as addresses, account numbers, counterparty names, and figures, rather than making a whole project private.
 - Personal projects appear in `MEMORY.md` under the same headings as everything else.
 
 ---
@@ -197,7 +197,7 @@ Separately, agents raise the possibility of a project when one of four condition
 Rationale:
 The Vision OS blueprint was canonical but unapplied. No project in the repository carried a hypothesis or anything that could end it, which meant projects could only be continued, never disproven. The charter is the enforcement point that connects the framework to actual work.
 
-The recognition triggers exist because a charter requirement alone is passive — it depends on Keith remembering to invoke it. Agents already read this repository at the start of a session, so they are in position to notice when work has become a project and put the choice in front of him while it is live.
+The recognition triggers exist because a charter requirement alone is passive. It depends on Keith remembering to invoke it. Agents already read this repository at the start of a session, so they are in position to notice when work has become a project and put the choice in front of him while it is live.
 
 Agents are barred from writing the hypothesis and kill criteria because those are a decision about what Keith is willing to be wrong about. An agent producing them would be pattern-matching on nearby text, and the output would read as decided when nothing had been decided.
 
@@ -208,3 +208,27 @@ Consequences:
 - Work without a charter stays in the relevant topic's `raw/` rather than becoming a project.
 - Agents surface project candidates in one sentence and do not create the project themselves.
 - The MQ Package and Vision OS both currently lack complete charters. Both are tracked in Open Questions.
+
+---
+
+### 2026-07-26: Separate AR offer discovery from campaign execution
+
+Decision:
+Create `docs/projects/ar-advisory-gtm/` as the project for validating an independent Analyst Relations advisory offer and its route to market.
+
+Begin with structured buyer research and a limited number of free advisory engagements. Keep the paid offer, pricing, free asset, and campaign execution unresolved until real situations show which problem, method, output, and outcome are repeatable and valuable.
+
+Keep the MQ Package as the primary home for reusable MQ methods, tools, and canonical guidance. Store buyer research, offer hypotheses, funnel design, campaign planning, and commercial learning in AR Advisory GTM.
+
+Rationale:
+The work began with a content campaign and funnel before the service itself was clear. Attempts to specify the paid offer from general expertise created false precision because Keith has not yet applied this knowledge as an external advisor in a real client situation.
+
+Keith already has strong subject-matter credibility and prior inbound interest. The missing evidence is how that expertise changes a company's decisions and what a buyer would value enough to purchase. A small discovery phase is the fastest way to learn that while providing genuine help.
+
+Consequences:
+- The project follows `market opportunity → buyer problem → desired outcome → offer → evidence → message → route to market → campaign → learning`.
+- Campaign execution remains paused during buyer and offer discovery.
+- Free engagements are genuine help and research, not incomplete paid engagements or hidden upsells.
+- Buyer interviews and free advisory work may run in parallel with MQ Package development because they can identify real needs and package gaps.
+- Reusable MQ methods and artifacts are developed in the MQ Package and linked into AR Advisory GTM.
+- The AR Advisory GTM charter keeps the active hypothesis and kill criteria as explicit `TODO`s for Keith.
