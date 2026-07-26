@@ -9,7 +9,7 @@ The project serves two connected goals:
 1. Improve how I run future MQ cycles by replacing scattered experience with a reusable operating system.
 2. Build transferable tools and deliverables that can eventually support an Analyst Relations consulting offer.
 
-The core package comes first. Public content, consulting positioning, pricing, and broader GTM should be derived from a substantive package rather than developed around an empty offer.
+The core package and real buyer discovery both inform the future consulting offer. Public campaign execution, pricing, and broader GTM should be derived from substantive knowledge, usable deliverables, and observed client needs rather than developed around an empty offer.
 
 ## Current phase
 
@@ -53,7 +53,16 @@ Do not build automated synchronization or complex workflows between NotebookLM a
 2. Process the NotebookLM sources that could change or complete those decisions, especially the demo workflow, publication, post-season findings, and strategic source gaps.
 3. Revise the working decisions and begin the canonical operating-system spine with approved material.
 4. Build the diagnostic scorecard and executive education deck from the canonical core.
-5. Define the consulting GTM after the package contains substantive, usable deliverables.
+5. Use findings from the related AR Advisory GTM discovery project to test how the package creates client value.
+6. Define and execute the consulting GTM after the package contains substantive, usable deliverables and discovery has clarified the buyer problem and offer.
+
+## Related commercial discovery project
+
+Buyer research, free advisory discovery, offer hypotheses, funnel design, and campaign planning live in:
+
+`../ar-advisory-gtm/`
+
+That project may run buyer interviews and limited free advisory work in parallel because those activities generate evidence about real client needs. Reusable MQ methods and tools still belong here. Broad campaign execution and paid-offer claims remain downstream from both the package and the discovery evidence.
 
 ## What the package is building toward
 
@@ -108,7 +117,7 @@ This project is focused on the Gartner Magic Quadrant lifecycle from the vendor 
 
 Broader Analyst Relations material belongs here when it directly supports MQ strategy, execution, prioritization, analyst credibility, or year-round company performance. This project should not quietly expand into a complete AR operating system before the MQ Package is built.
 
-The strategic consulting wedge is Gartner AR, but the consulting offer remains downstream from the package. Broader multi-threaded Aspirationalist content should not displace the current effort to build this specialized operating system.
+The strategic consulting wedge is Gartner AR. Reusable method and deliverables remain downstream from the package, while buyer discovery is tracked separately in the AR Advisory GTM project. Broader multi-threaded Aspirationalist content should not displace the current effort to build this specialized operating system.
 
 ## Repository-wide publishing policy
 
@@ -136,6 +145,7 @@ Only create folders and files when the work is ready for them.
 - Use one primary home for each file and link to it elsewhere.
 - Treat the MQ Package as the canonical core.
 - Derive books, quicksheets, decks, posts, consulting materials, and other artifacts from that core.
+- Run buyer discovery in the related AR Advisory GTM project rather than duplicating commercial notes here.
 - Build in small, reviewable increments.
 - Keep working decisions explicitly labeled until they are approved for canonical use.
 - Defer automation until the package and intake workflow are stable.
