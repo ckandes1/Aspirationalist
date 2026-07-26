@@ -188,6 +188,24 @@ Rules for agents:
 - Link projects and artifacts from topic pages when useful.
 - Do not move existing topic files into projects unless a deliberate migration is approved.
 
+## Personal Projects
+
+Not everything Keith works on is Aspirationalist. Real estate, household, family, personal finance, and other work that does not serve the platform lives under:
+
+```text
+docs/personal/<project-name>/
+```
+
+Structure, maturity path, and README requirements are identical to `docs/projects/`. Only the location differs. See `docs/personal/README.md`.
+
+Rules for agents:
+- `docs/projects/` is the default. Most of Keith's work overlaps with Aspirationalist. Use `docs/personal/` only when a project clearly sits outside it. If it is genuinely ambiguous, ask rather than guessing.
+- The path is the only marker. Do not add a `personal:` or `context:` field to frontmatter, READMEs, or `MEMORY.md`.
+- Do not move a project between `docs/projects/` and `docs/personal/` without asking. Reclassification breaks links and is Keith's call.
+- If a personal project produces thinking useful to the Aspirationalist audience, do not move the project. Write the shareable version as an artifact under the relevant topic or project and link back to it.
+- This repo is public and the transparency rules above apply unchanged. Personal projects touch third parties and financial specifics more often than Aspirationalist work does, so flag the specific passage for review — addresses, account numbers, counterparty names, specific financial figures — rather than making a whole project private or stripping surrounding context.
+- Personal projects appear in `MEMORY.md` under the same headings as everything else. Do not create a separate personal memory file.
+
 ## Agent Roles
 
 Builder agents implement scoped changes.

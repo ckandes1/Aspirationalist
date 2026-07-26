@@ -31,6 +31,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - **External source intake:** tools such as NotebookLM may hold unstructured material before processing; GitHub remains the structured and authoritative record.
 - **MQ commercialization:** the package and usable deliverables come before consulting GTM, pricing, or broad campaign development.
 - **Canonical topic capture:** potential canonical ideas are preserved first as structured, dated raw notes before they are promoted into frameworks or projects.
+- **Personal projects:** non-Aspirationalist work lives at `docs/personal/<project-name>/` using the same structure as `docs/projects/`. `docs/projects/` remains the default; path is the only marker.
 
 ## Open Questions
 
