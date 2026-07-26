@@ -4,6 +4,100 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-07-26: AR Advisory GTM
+
+### Completed this session
+
+- Reviewed `AGENTS.md`, `KEITH.md`, `MEMORY.md`, this handoff, the Vision OS operational blueprint, the canonical-topic capture skill, and the MQ Package README before filing the work.
+- Confirmed that the freelance AR and Gartner work has become a project because it has a durable outcome, multiple source and working documents, and several likely artifacts.
+- Created `docs/projects/ar-advisory-gtm/README.md` with the required project charter.
+- Left the active hypothesis and kill criteria as explicit `TODO`s for Keith, following the project-charter rule.
+- Captured the July 26 interview and candid reasoning at `docs/projects/ar-advisory-gtm/source/2026-07-26-gtm-discovery-session.md`.
+- Added the current synthesis at `docs/projects/ar-advisory-gtm/working/mvp-gtm-foundation.md`.
+- Linked the AR Advisory GTM project from the MQ Package and clarified the boundary between the two projects.
+- Recorded the durable offer-discovery decision in `docs/build/DECISIONS.md`.
+- Updated `MEMORY.md` with the new active work, open questions, and immediate next action.
+- Pruned `MEMORY.md` Recent Decisions to three items so it follows the documented rule.
+- Branch `chatgpt/ar-advisory-gtm-project` contains the work.
+
+### What changed in the approach
+
+The session began with a campaign and funnel. The work moved upstream because the buyer problem, service method, deliverable, and paid outcome were still unclear.
+
+The current sequence is:
+
+`market opportunity → buyer problem → desired outcome → offer → evidence → message → route to market → campaign → learning`
+
+The project is currently between buyer-problem discovery and offer discovery.
+
+The paid offer and campaign remain unresolved by design. The current MVP is structured buyer research plus a limited number of free advisory engagements that provide genuine help and reveal how Keith's knowledge creates repeatable client value.
+
+### Current working understanding
+
+- The initial champion is likely an Analyst Relations leader or practitioner.
+- CEOs and CMOs are likely economic buyers or important executive stakeholders.
+- Product marketing, product, strategy, and competitive intelligence are important collaborators.
+- The entry problem is the mystery around Gartner and the MQ: what can be influenced, whether the company is spending effort in the right places, whether Gartner understands the story, and whether AR objectives align with executive expectations.
+- The near-term value may be clearer priorities, reduced low-value work, better resource allocation, stronger executive alignment, and better current ROI from AR.
+- Improved MQ placement is a longer-term possible result and cannot be promised.
+- Keith has strong credibility and prior inbound evidence, but no evidence yet of a repeatable external advisory method or paid service.
+
+### Relationship to the MQ Package
+
+The MQ Package remains the canonical home for reusable MQ methods, playbooks, scorecards, and tools.
+
+AR Advisory GTM is the commercial validation layer. Buyer interviews, free advisory discovery, offer hypotheses, funnel design, campaign planning, and commercial learning live there.
+
+Buyer discovery may run in parallel with MQ Package development because real client situations can reveal package gaps. Broad campaign execution and paid-offer claims remain downstream from substantive knowledge and discovery evidence.
+
+### Where the work stopped
+
+The project has a source record, working synthesis, scope, status, boundaries, and next action.
+
+The following remain intentionally open:
+
+- active project hypothesis;
+- kill criteria and evidence thresholds;
+- highest-urgency buyer trigger;
+- exact diagnostic method;
+- free-engagement scope;
+- repeatable output;
+- paid promise, scope, and pricing;
+- free asset and CTA;
+- campaign plan.
+
+### Next action
+
+Keith supplies the project's active hypothesis and kill criteria.
+
+Then create:
+
+`docs/projects/ar-advisory-gtm/working/gtm-discovery-plan.md`
+
+That document should define:
+
+1. who to interview first;
+2. the interview and follow-up questions;
+3. the information and MQ or AR materials to request;
+4. invitation language for research conversations;
+5. how up to three free advisory engagements will be selected and run;
+6. what evidence and exact buyer language will be captured; and
+7. the gate for drafting the first paid offer.
+
+### Important boundaries
+
+- Do not restart broad campaign planning before the discovery gate is met.
+- Do not invent the paid offer from general expertise.
+- Do not frame the free work as a trial, incomplete engagement, or hidden upsell.
+- Do not duplicate MQ methods that belong in the MQ Package.
+- Do not reproduce licensed Gartner material or confidential employer, analyst, customer, or company information.
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md, KEITH.md, MEMORY.md, docs/journal/HANDOFF.md, docs/projects/ar-advisory-gtm/README.md, the July 26 GTM discovery source, and mvp-gtm-foundation.md. Help me complete the active hypothesis and kill criteria, then build the GTM Discovery Plan.`
+
+---
+
 ## Session Handoff — 2026-07-26
 
 ### Completed this session
@@ -58,7 +152,7 @@ Say: `Read AGENTS.md, KEITH.md, MEMORY.md, docs/journal/HANDOFF.md, docs/project
 - Defined the external-source-intake rule as a repository-wide workflow decision rather than an MQ-specific rule.
 - Documented the MQ Package as the first active implementation of that workflow through the NotebookLM project `"MQ Package" Content for Aspirationalist`.
 - Added `docs/projects/mq-package/source/notebooklm-source-index.md` to document the external source inventory, authority rule, processing queue, constraints, and intake statuses.
-- Expanded `docs/projects/mq-package/README.md` with:
+- Expanded the MQ Package README with:
   - the dual internal and future-consulting purpose
   - the NotebookLM intake rule
   - the current build sequence
