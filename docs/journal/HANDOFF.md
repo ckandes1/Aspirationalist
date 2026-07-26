@@ -4,6 +4,49 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-07-26
+
+### Completed this session
+
+- Added `docs/personal/` as the home for non-Aspirationalist work, with `docs/personal/README.md` and a `Personal Projects` section in `AGENTS.md`. Branch `claude/personal-projects-path`, pull request #11.
+- Added a `Project Charter` requirement to `AGENTS.md`: every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status.
+- Added a `Recognizing a Project` section to `AGENTS.md` so agents surface project candidates reactively instead of waiting to be asked.
+- Added the missing `docs/projects/vision-os/README.md`.
+- Corrected stale Vision OS entries in `MEMORY.md` and removed the resolved open question about whether the vision-to-execution note should mature into a framework.
+- Recorded both decisions in `docs/build/DECISIONS.md`.
+- Branch `claude/project-charter`, pull request #12, stacked on #11.
+
+### Two corrections worth carrying forward
+
+The session opened by building a standalone project-memory spec for a repository that did not exist, from a misreading of "asp." This repository already had that system. Agents should read the repository before designing anything for it.
+
+The second was assuming the vision-to-execution framework still needed to be built. It was already canonical at `docs/projects/vision-os/canonical/operational-blueprint.md`. The actual gap was that nothing applied it.
+
+### What the charter is for
+
+The blueprint was canonical and unapplied. No project carried a hypothesis or anything that could end it, so projects could only be continued, never disproven. The charter is the enforcement point.
+
+The division of labor matters: agents draft vision link, scope, and status because those are derivable from repository material. Agents never write the hypothesis or kill criteria, because those are a choice about what Keith is willing to be wrong about, and a generated version reads as decided when nothing was.
+
+### Known gaps
+
+- The MQ Package README has no charter section. Merging #12 makes the anchor project non-compliant with the rule #12 adds.
+- Vision OS's own charter has three `TODO`s: hypothesis, kill criteria, and 30–90 day scope.
+- The weekly reflection loop from the blueprint is not wired to anything. The charter is a static declaration; there is no cadence enforcing review. This was a deliberate deferral — Keith chose reactive recognition over agent-driven scheduling.
+- Recent Decisions in `MEMORY.md` holds eleven items against a documented limit of 2–3. Pruning is a judgment call and was left for Keith.
+
+### Next action
+
+Charter the MQ Package. It is the anchor project and the first real test of whether the framework survives contact with live work.
+
+Keith supplies the hypothesis and kill criteria. Everything else can be drafted from the existing README and working decisions.
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md, KEITH.md, MEMORY.md, docs/journal/HANDOFF.md, docs/projects/vision-os/canonical/operational-blueprint.md, and docs/projects/mq-package/README.md. Help me write the MQ Package charter.`
+
+---
+
 ## Session Handoff — 2026-07-14
 
 ### Completed this session

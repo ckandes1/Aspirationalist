@@ -161,3 +161,50 @@ Consequences:
 - Automated synchronization is deferred until the intake and processing workflow is stable.
 
 The MQ Package is the first active implementation of this workflow through the NotebookLM project `"MQ Package" Content for Aspirationalist`.
+
+---
+
+### 2026-07-26: Separate personal projects by path
+
+Decision:
+Work that is not Aspirationalist — real estate, household, family, personal finance — lives under `docs/personal/<project-name>/`, using the same structure and maturity path as `docs/projects/`. The path is the only marker. No `personal:` or `context:` field is added anywhere.
+
+`docs/projects/` remains the default. `docs/personal/` is used only when a project clearly sits outside the platform.
+
+Rationale:
+Personal work needs the same discipline as platform work, and the same agent instructions already describe that discipline. Duplicating the system for personal use would create two conventions to maintain. Adding a metadata field instead of using the path would create a second source of truth that can drift out of sync with where the file actually sits.
+
+Making `docs/projects/` the default rather than requiring an explicit choice means agents only exercise judgment in the minority of cases, which is where judgment is actually needed.
+
+Consequences:
+- Agents ask rather than guess when classification is genuinely ambiguous.
+- Agents do not move projects between the two locations without approval, because reclassification breaks links.
+- Thinking from a personal project that is useful publicly is written as an artifact under the relevant topic and linked back, rather than by relocating the project.
+- The repository remains public and the existing transparency rules apply unchanged. Personal projects encounter third-party and financial specifics more often, so agents flag the specific passage — addresses, account numbers, counterparty names, figures — rather than making a whole project private.
+- Personal projects appear in `MEMORY.md` under the same headings as everything else.
+
+---
+
+### 2026-07-26: Require a project charter and surface project candidates
+
+Decision:
+Every project README opens with a charter: vision link, active hypothesis, kill criteria, 30–90 day scope, and status. The charter is the applied form of `docs/projects/vision-os/canonical/operational-blueprint.md`.
+
+Agents may draft the vision link, scope, and status. Agents do not write the hypothesis or the kill criteria.
+
+Separately, agents raise the possibility of a project when one of four conditions appears: work with an outcome that outlasts the session and has no project, a topic `raw/` folder with three or more notes on the same problem, real work with no home in the repo, or an existing project with unfilled charter `TODO`s or a stale status date.
+
+Rationale:
+The Vision OS blueprint was canonical but unapplied. No project in the repository carried a hypothesis or anything that could end it, which meant projects could only be continued, never disproven. The charter is the enforcement point that connects the framework to actual work.
+
+The recognition triggers exist because a charter requirement alone is passive — it depends on Keith remembering to invoke it. Agents already read this repository at the start of a session, so they are in position to notice when work has become a project and put the choice in front of him while it is live.
+
+Agents are barred from writing the hypothesis and kill criteria because those are a decision about what Keith is willing to be wrong about. An agent producing them would be pattern-matching on nearby text, and the output would read as decided when nothing had been decided.
+
+Consequences:
+- One active hypothesis per project, no more than three active priorities repository-wide. A fourth surfaces as a conflict rather than being absorbed.
+- Unanswered charter fields stay as explicit `TODO`s naming what is missing.
+- When evidence trips a project's kill criteria, agents say so and add it to Open Questions in `MEMORY.md` rather than continuing to execute.
+- Work without a charter stays in the relevant topic's `raw/` rather than becoming a project.
+- Agents surface project candidates in one sentence and do not create the project themselves.
+- The MQ Package and Vision OS both currently lack complete charters. Both are tracked in Open Questions.

@@ -167,7 +167,7 @@ Create only the folders needed for the current work. A project may contain:
 
 ```text
 docs/projects/<project-name>/
-├── README.md       ← purpose, outcome, status, boundaries, and navigation
+├── README.md       ← charter, purpose, outcome, status, boundaries, and navigation
 ├── source/         ← raw inputs and consolidated source notes
 ├── working/        ← synthesis, decisions, open questions, and drafts
 ├── canonical/      ← the current authoritative operating system or method
@@ -187,6 +187,66 @@ Rules for agents:
 - Put shareable outputs in `artifacts/` only when they are intentionally designed for other people to use.
 - Link projects and artifacts from topic pages when useful.
 - Do not move existing topic files into projects unless a deliberate migration is approved.
+
+### Project Charter
+
+Every project README opens with a charter. It is the link between the project and the vision, and it is what makes the project killable.
+
+The charter is the applied form of `docs/projects/vision-os/canonical/operational-blueprint.md`. That document is the canonical framework; the charter is how it shows up in each project.
+
+Five fields, at the top of the README, before any other section:
+
+```text
+## Charter
+
+**Vision link:** which macro impact goal this project drives toward
+**Active hypothesis:** the specific testable bet, and why it is the fastest to validate
+**Kill criteria:** what must prove true in this window, and what ends this path
+**30–90 day scope:** the bound outcome or artifact that tests the hypothesis
+**Status:** current stage and the date of the last weekly reflection
+```
+
+Rules for agents:
+- One active hypothesis per project. No more than three active priorities across the repo at once. If a fourth appears, surface the conflict rather than absorbing it.
+- Do not write or revise the hypothesis or the kill criteria. Those are Keith's. Agents may draft the vision link, scope, and status for review.
+- Leave unanswered fields as an explicit `TODO` naming what is missing. Do not infer a hypothesis from surrounding project material — a plausible-sounding invented bet is worse than a blank one, because it looks decided.
+- When evidence trips a project's kill criteria, say so directly and add it to Open Questions in `MEMORY.md`. Do not continue executing a project whose criteria have failed.
+- A project without a charter is not yet a project. Either write the charter or leave the work in the relevant topic's `raw/`.
+- Applies to `docs/personal/` projects as well.
+
+### Recognizing a Project
+
+Keith should not have to remember to start a project. Any agent already reading this repo should notice when work has become one, and say so.
+
+Raise it when:
+- Keith describes work with an outcome that will outlast the current session, and no project exists for it.
+- A topic's `raw/` has accumulated three or more notes circling the same problem.
+- Real work is happening in the session and has no home in the repo.
+- The session is working inside a project whose charter has unfilled `TODO`s, or a status date more than a month old.
+
+When one of these fires, say so in one sentence. Name the path the project would live at, and which charter fields can already be drafted from what is on the table.
+
+Do not create the project. Do not fill in the hypothesis or the kill criteria. The point is to put the choice in front of Keith at the moment it is live, not to file work on his behalf.
+
+Do not raise it for one-off questions, for work that belongs in a project that already exists, or a second time in a session after Keith has passed on it.
+
+## Personal Projects
+
+Not everything Keith works on is Aspirationalist. Real estate, household, family, personal finance, and other work that does not serve the platform lives under:
+
+```text
+docs/personal/<project-name>/
+```
+
+Structure, maturity path, and README requirements are identical to `docs/projects/`. Only the location differs. See `docs/personal/README.md`.
+
+Rules for agents:
+- `docs/projects/` is the default. Most of Keith's work overlaps with Aspirationalist. Use `docs/personal/` only when a project clearly sits outside it. If it is genuinely ambiguous, ask rather than guessing.
+- The path is the only marker. Do not add a `personal:` or `context:` field to frontmatter, READMEs, or `MEMORY.md`.
+- Do not move a project between `docs/projects/` and `docs/personal/` without asking. Reclassification breaks links and is Keith's call.
+- If a personal project produces thinking useful to the Aspirationalist audience, do not move the project. Write the shareable version as an artifact under the relevant topic or project and link back to it.
+- This repo is public and the transparency rules above apply unchanged. Personal projects touch third parties and financial specifics more often than Aspirationalist work does, so flag the specific passage for review — addresses, account numbers, counterparty names, specific financial figures — rather than making a whole project private or stripping surrounding context.
+- Personal projects appear in `MEMORY.md` under the same headings as everything else. Do not create a separate personal memory file.
 
 ## Agent Roles
 
