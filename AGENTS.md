@@ -214,6 +214,22 @@ Rules for agents:
 - A project without a charter is not yet a project. Either write the charter or leave the work in the relevant topic's `raw/`.
 - Applies to `docs/personal/` projects as well.
 
+### Recognizing a Project
+
+Keith should not have to remember to start a project. Any agent already reading this repo should notice when work has become one, and say so.
+
+Raise it when:
+- Keith describes work with an outcome that will outlast the current session, and no project exists for it.
+- A topic's `raw/` has accumulated three or more notes circling the same problem.
+- Real work is happening in the session and has no home in the repo.
+- The session is working inside a project whose charter has unfilled `TODO`s, or a status date more than a month old.
+
+When one of these fires, say so in one sentence. Name the path the project would live at, and which charter fields can already be drafted from what is on the table.
+
+Do not create the project. Do not fill in the hypothesis or the kill criteria. The point is to put the choice in front of Keith at the moment it is live, not to file work on his behalf.
+
+Do not raise it for one-off questions, for work that belongs in a project that already exists, or a second time in a session after Keith has passed on it.
+
 ## Personal Projects
 
 Not everything Keith works on is Aspirationalist. Real estate, household, family, personal finance, and other work that does not serve the platform lives under:
