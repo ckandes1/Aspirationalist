@@ -28,9 +28,9 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Recent Decisions
 
-- **Personal projects:** non-Aspirationalist work lives at `docs/personal/<project-name>/` using the same structure as `docs/projects/`. `docs/projects/` remains the default; path is the only marker.
 - **Project charter:** every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status. Agents may draft the link, scope, and status but never the hypothesis or kill criteria.
 - **AR Advisory GTM:** track consulting-offer discovery separately from the MQ Package. Begin with buyer interviews and limited free advisory work. Keep the paid offer and campaign paused until evidence clarifies the repeatable problem, method, output, and outcome.
+- **Merge handoff:** after opening or updating a pull request, every AI agent provides a ready-to-paste suggested merge title and description covering the complete pull request.
 
 ## Open Questions
 
