@@ -17,7 +17,8 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - Publication and post-season findings are still pending. The demo workflow remains the largest source gap.
 - Existing Zone 1 / Zone 2 notes remain in the Analyst Relations topic and are referenced rather than moved.
 - The Personal Field Notes topic is merged at `docs/topics/personal-field-notes/` with a reusable canonical-topic capture skill.
-- The vision-to-execution note remains raw material. Its current chain is `vision → hypotheses → project → 30–90 day scope → milestones → weekly outcomes → daily tasks → tracking and review`.
+- Vision OS is canonical at `docs/projects/vision-os/canonical/operational-blueprint.md`. The chain is `vision → candidate hypotheses → one bet → 30–90 day bound scope → weekly reflection → daily time blocks`, capped at three active priorities and one hypothesis each.
+- Vision OS has not been applied. No project currently carries a charter. MQ Package is the first test.
 - Next.js + Sanity + Vercel stack is decided, scaffolding has not started.
 
 ## Recent Decisions
@@ -32,6 +33,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - **MQ commercialization:** the package and usable deliverables come before consulting GTM, pricing, or broad campaign development.
 - **Canonical topic capture:** potential canonical ideas are preserved first as structured, dated raw notes before they are promoted into frameworks or projects.
 - **Personal projects:** non-Aspirationalist work lives at `docs/personal/<project-name>/` using the same structure as `docs/projects/`. `docs/projects/` remains the default; path is the only marker.
+- **Project charter:** every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status. Agents may draft the link, scope, and status but never the hypothesis or kill criteria.
 
 ## Open Questions
 
@@ -40,7 +42,8 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - Which NotebookLM sources materially change the current working decisions?
 - What is the complete demo workflow?
 - Which publication and post-season findings must be captured before canonical work begins?
-- Should the vision-to-execution note mature into a general framework, a personal operating system, a planning artifact, or part of a larger human-potential project?
+- What is the MQ Package's active hypothesis and what would kill it?
+- What is Vision OS's own hypothesis, kill criteria, and 30–90 day scope?
 - Whether the public website navigation label remains `Resources` or changes later
 - Newsletter platform
 - Community platform
