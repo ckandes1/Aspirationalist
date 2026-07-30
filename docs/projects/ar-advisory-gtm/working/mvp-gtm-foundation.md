@@ -1,232 +1,289 @@
-# MVP GTM foundation
+# Research-led AR advisory foundation
 
 Status: Working document  
-Updated: 2026-07-26  
-Source: `../source/2026-07-26-gtm-discovery-session.md`
+Updated: 2026-07-30  
+Sources: `../source/2026-07-26-gtm-discovery-session.md` and `../source/2026-07-30-research-publication-plan-decision.md`
 
 ## Purpose
 
-Capture what is currently understood well enough to guide the next discovery work without presenting the offer or campaign as settled.
+Capture the current strategic foundation for validating an independent AR and Magic Quadrant advisory service without inventing the service before Keith has applied his knowledge in real external situations.
 
-## Lean operating sequence
+## Core mechanism
 
-`market opportunity → buyer problem → desired outcome → offer → evidence → message → route to market → campaign → learning`
+The project begins with a useful practitioner publication rather than direct service outreach.
 
-Current position: buyer-problem and offer discovery.
+The publication creates a credible and low-pressure reason to talk with AR leaders. The interview produces market insight and content. The referral question expands the participant pool. An optional advisory session offered afterward gives the participant additional value and gives Keith a chance to observe how his perspective affects a real decision.
 
-## Market opportunity
+The sequence is:
 
-### Observation
+`publication interview → referral request → optional advisory session → impact follow-up → evidence synthesis → article distribution → paid-beta decision`
 
-B2B SaaS companies invest substantial executive attention, product effort, marketing time, and Gartner budget in MQ participation. The people responsible for Analyst Relations often understand Gartner conceptually but have limited direct visibility into the internal evaluation process and the nuance accumulated by analysts over many cycles.
+## Why this approach fits the current uncertainty
 
-### Working interpretation
+Keith has strong subject-matter credibility:
 
-This creates a gap between:
+- seven years inside Gartner as an analyst and manager;
+- vendor-side ownership of MQ and AR work;
+- product marketing, positioning, market intelligence, and strategy experience;
+- a substantial body of MQ knowledge and source material; and
+- prior LinkedIn content that generated strong engagement and unsolicited service inquiries.
 
-- what AR understands and recommends;
-- what executives expect from the MQ;
-- what the company measures and rewards;
-- where teams spend time; and
-- what would actually strengthen the business and its market position.
+The missing evidence concerns application and value:
 
-The opportunity is to provide an experienced external perspective that helps the company distinguish meaningful strategic work from activity performed mainly because the MQ process rewards or requests it.
+- which AR situations benefit most from his perspective;
+- which questions and diagnostic lenses are repeatable;
+- which recommendations change decisions or actions;
+- which outputs help participants create internal alignment; and
+- which outcome a buyer would fund.
 
-### Uncertainty
+Direct outreach describing a future advisory offer creates skepticism because it resembles disguised sales activity. A publication interview gives the participant a clear role and a concrete reason to engage. The advisory service is introduced only after the interview, once the participant has context and trust.
 
-The frequency, urgency, and willingness to pay for this problem have not been validated.
+## Research focus
 
-## Initial buyer and stakeholders
+Working practitioner title:
 
-### Primary champion
+**What AR Leaders Wish Executives Understood About the Magic Quadrant**
 
-Analyst Relations leader or practitioner responsible for Gartner participation and executive communication.
+Central question:
+
+Where do executive expectations create friction, wasted effort, or poor decisions during the MQ cycle, and what should companies do differently?
+
+Likely research areas:
+
+- what executives believe the MQ measures;
+- how placement expectations affect AR priorities;
+- where teams spend disproportionate time;
+- which MQ activities create business value;
+- where AR struggles to influence product, marketing, or executive stakeholders;
+- what Gartner may misunderstand about the company;
+- what experienced practitioners wish they had understood earlier; and
+- what outside perspective would make the function more effective.
+
+## Audience and stakeholder model
+
+### Research participants and likely service champions
+
+AR leaders and practitioners responsible for Gartner participation, MQ outcomes, and executive communication.
 
 ### Likely economic buyers
 
-CEO and CMO.
+- CEO
+- CMO
+- Senior marketing or strategy leader
 
-### Important collaborators and influencers
+### Important collaborators
 
 - Product marketing
 - Product leadership
-- Strategy leadership
+- Strategy
 - Competitive intelligence
+- Communications and PR
 
-### Uncertainty
+The research should distinguish who feels the problem, who can authorize help, and who must participate for recommendations to create value.
 
-The first person who recognizes the problem may not control budget. Discovery should identify who feels the pain, who can authorize help, and who must participate for the work to create value.
+## Interview and advisory separation
 
-## Buyer problem
+The article interview and advisory session have separate purposes.
 
-### Working problem statement
+### Article interview
 
-The AR leader is expected to help the company perform well in the Gartner MQ but does not feel fully confident about how Gartner is interpreting the company, which levers can realistically be influenced, where the company is undercommunicating, and which activities or investments deserve priority.
+Purpose:
 
-The difficulty becomes more serious when executive expectations, AR metrics, and actual business objectives do not align.
+- understand practitioner experience;
+- collect insight and language for the publication;
+- identify repeated problems;
+- test whether the article thesis is worth pursuing; and
+- ask for relevant participant referrals.
 
-### Situations likely to activate the problem
+The invitation asks only for the interview.
 
-- Preparing for an MQ cycle without strong prior experience.
-- Reviewing the prior cycle and deciding what to change.
-- Trying to explain placement, strengths, cautions, or Gartner feedback to executives.
-- Believing Gartner does not understand the company's strategy or differentiation.
-- Allocating limited product, PMM, AR, and executive time across competing MQ priorities.
-- Attempting to improve placement without a clear view of which changes also improve the business.
+### Optional advisory session
 
-### Uncertainty
+After the referral question and interview close, Keith may offer a separate free session as a thank-you.
 
-The highest-urgency trigger has not been identified.
+The session operates like a Gartner inquiry:
 
-## Desired outcome
+- understand the current situation and decision;
+- identify the underlying assumptions and constraints;
+- pressure-test options;
+- provide a direct interpretation and recommendation; and
+- agree on the action the participant intends to take.
 
-### Working outcome hypothesis
+Keith can then follow up directly to learn whether the advice was used, what changed, and whether one short follow-up conversation would help.
 
-Give AR and company leadership a clearer view of what their MQ situation means, where effort is being wasted, which levers matter, and where to redirect attention and investment.
+## Potential advisory problem territory
 
-### Potential value
+The following remain hypotheses until the sessions produce evidence:
 
-- Better current ROI from AR and Gartner participation.
-- Less time spent on low-value work.
-- Stronger executive understanding and alignment.
-- Greater AR credibility and strategic influence.
-- Clearer connection between Gartner strategy, company strategy, product priorities, and market positioning.
-- A more effective program that can improve MQ performance over time.
+- executive education and expectation alignment;
+- MQ cycle prioritization and resource allocation;
+- deciding which Gartner feedback matters;
+- interpreting placement, strengths, cautions, and movement;
+- reviewing whether the company story communicates strategy and differentiation;
+- preparing AR to influence product and executive decisions;
+- reducing low-value checklist work; and
+- connecting AR strategy to business priorities and current ROI.
 
-### Important distinction
+The project should avoid selecting one pre-offer from this list before participants bring real situations.
 
-Immediate value is likely to come from clarity, prioritization, resource allocation, and executive alignment. Dot movement is a longer-term outcome and cannot be guaranteed.
+## Two publication outputs
 
-### Uncertainty
+The same research can produce two distinct articles.
 
-A real client situation is required to determine which of these outcomes is most valuable and which can be delivered repeatedly.
+### Practitioner article
 
-## Offer status
+**What AR Leaders Wish Executives Understood About the Magic Quadrant**
 
-No paid offer has been defined.
+Primary audience:
 
-The current MVP is a learning motion:
+- AR leaders and practitioners
+- Product marketing and communications professionals working closely with AR
 
-1. Conduct structured buyer research.
-2. Offer genuine free help to a limited number of relevant people.
-3. Diagnose their situation using available MQ materials, AR operating context, objectives, metrics, and stakeholder expectations.
-4. Observe which analysis and recommendations create value.
-5. Identify the repeatable problem, method, output, and outcome.
-6. Draft the first paid-offer hypothesis from evidence.
+The article should preserve practitioner experience, internal friction, and practical advice.
 
-This free work is not an incomplete paid engagement or a staged upsell. Its scope may be flexible because the purpose is to help and learn.
+### Executive article
 
-## Initial diagnostic inputs
+Working direction:
 
-### MQ-cycle evidence
+**How Magic Quadrant Expectations Create Wasted Work in B2B SaaS**
 
-- Prior welcome packet
-- Prior questionnaire submission
-- Current welcome packet and questionnaire when available
-- Current point in the cycle
-- Prior retrospective or debrief
-- Summary of what worked and what did not
-- Current executive expectations and concerns
+Primary audience:
 
-### AR operating context
+- CEOs
+- CMOs
+- CPOs
+- B2B SaaS strategy and marketing leaders
 
-- Team size and roles
-- Function maturity and tenure
-- Analyst firms and tiering system
-- Recent and targeted reports
-- Objectives and metrics
-- Current allocation of time
-- Internal perception of success
-- Stakeholder support, indifference, and resistance
+The article should translate the findings into business implications such as resource allocation, product investment, differentiation, executive alignment, market credibility, and commercial impact.
 
-### First diagnostic lens
+The two pieces should be written separately rather than forcing one article to serve both audiences.
 
-Compare:
+## Distribution strategy
 
-1. what the AR function is trying to achieve;
-2. how it is measured;
-3. what executives and stakeholders expect; and
-4. where the team actually spends time.
+Complete the drafts before public release, then research and pitch relevant outlets or organizations.
 
-The full diagnostic method remains open.
+Potential channel categories:
 
-## Evidence and credibility
+- AR practitioner organizations and communities;
+- product marketing organizations;
+- B2B marketing and PR publications;
+- B2B SaaS executive publications and communities;
+- podcasts, webinars, panels, and roundtables; and
+- Keith's own LinkedIn and future owned channels.
 
-- Seven years inside Gartner as an analyst and manager.
-- Vendor-side experience leading MQ and AR work.
-- PMM, positioning, competitive intelligence, and strategy experience.
-- Existing MQ Package source material and developing operating system.
-- Prior LinkedIn content that generated strong engagement and several unsolicited service inquiries.
+The distribution task should identify:
 
-This evidence supports buyer interest and topic credibility. It does not yet prove a repeatable paid service.
+- audience fit;
+- exclusivity requirements;
+- contribution formats;
+- editorial lead times;
+- relevant editors, community leaders, or producers;
+- the strongest initial pitch; and
+- the date when Keith will move to another outlet or self-publish.
 
-## Message status
+External publication is pursued before LinkedIn release when the target requires original or exclusive material.
 
-The clearest current entry point is the mystery around the MQ and uncertainty about what can be influenced.
+## Evidence model
 
-Working message territory:
+### Content validation
 
-> Help AR and B2B SaaS leaders understand what Gartner is signaling, decide which levers and gaps matter, and focus their effort where it creates the most business value.
+Observable signals:
 
-This is provisional. Buyer language from discovery should replace generic phrasing wherever possible.
+- interview acceptance;
+- specific and useful contribution;
+- quote permission;
+- participant referral;
+- willingness to review or share the finished piece; and
+- external outlet interest.
 
-## Route to market
+### Problem validation
 
-### Initial path
+Observable signals:
 
-`LinkedIn expertise content → free resource or research invitation → private conversation → limited free advisory work → paid-offer hypothesis`
+- repeated triggering situations;
+- repeated executive misunderstandings;
+- recurring resource or priority conflicts;
+- meaningful business consequences;
+- evidence of urgency; and
+- similar participant language across companies.
 
-### Channel evidence
+### Service validation
 
-Keith has previously received service inquiries from LinkedIn posts on Gartner and MQ topics. The content channel is therefore worth testing again with a clearer continuation path.
+Observable signals:
 
-### Research outreach
+- participant brings a live consequential issue;
+- advisory session is accepted;
+- advice produces a committed action;
+- participant takes the action;
+- the advice changes a decision, priority, message, or allocation; and
+- participant requests a follow-up because the work remains useful.
 
-Targeted outreach is acceptable when it clearly asks for research participation and does not disguise a sales pitch.
+### Offer validation
 
-### Deferred
+Observable signals:
 
-- Website
-- Dedicated business email
-- Broad Substack operation
-- Membership or cohort
-- Paid ads and boosted posts
-- Full campaign calendar
-- Public freelance sales language
+- request for continued help;
+- peer referral based on the advisory experience;
+- introduction to an economic buyer;
+- willingness-to-pay discussion;
+- request for a defined scope; or
+- participation in a paid beta.
 
-## Campaign status
+Positive feedback, article engagement, and interview acceptance remain useful signals within their own categories. They do not establish that a service or offer works.
 
-Campaign execution is paused.
+## Decision gate for a paid beta
 
-The campaign should be designed after discovery produces a credible buyer problem, free asset, paid-offer hypothesis, and conversion path.
-
-The future campaign objective will be to validate demand and generate qualified conversations for that offer. It should not be used to discover what the offer is from scratch.
-
-## Learning questions
-
-1. What situation causes an AR leader to seek outside help?
-2. What do AR teams believe they understand about the MQ, and where does confidence break down?
-3. Where do executive expectations conflict with AR objectives and metrics?
-4. Which activities consume disproportionate time without creating useful business value?
-5. What does Keith see in the materials or situation that the company has not seen?
-6. Which recommendation changes a decision, priority, or allocation?
-7. What output helps the participant explain the situation internally?
-8. Which part of the work is repeatable across companies?
-9. Who would pay for that outcome?
-10. What evidence is sufficient to move from free discovery to a paid pilot?
-
-## Decision gate before campaign work
-
-Do not resume broad campaign planning until the project can state, with evidence:
+A paid beta can be drafted when the project can state, with evidence:
 
 - the buyer and triggering situation;
-- the important problem and consequence;
-- the valuable outcome;
-- the repeatable method or mechanism;
-- the bounded paid deliverable;
-- the person who can buy it; and
-- the smallest credible route from content or outreach to a sales conversation.
+- the consequential problem;
+- the immediate valuable outcome;
+- the repeatable advisory mechanism;
+- the bounded deliverable or engagement;
+- the person who can purchase it; and
+- the smallest credible route from research or content into a sales conversation.
 
-## Next working document
+## Primary risks
 
-Create `working/gtm-discovery-plan.md` covering participants, interview structure, intake materials, invitation language, tracking, and evidence thresholds.
+### Content becomes an avoidance mechanism
+
+The project can generate interviews, writing, and distribution without proving that Keith can create advisory value. Advisory follow-up and outcome tracking are required to prevent this.
+
+### The publication becomes funnel camouflage
+
+Leading with free advice or a future offer would make the interview request resemble presales outreach. The initial invitation stays focused on the article.
+
+### Publication and private advice become ambiguous
+
+Participants need clear attribution and confidentiality choices. Private company situations used in advisory sessions stay separate from attributable article material unless the participant explicitly approves their use.
+
+### Free consulting expands without learning
+
+Each advisory session should capture the situation, advice, intended action, actual action, outcome, and continuation signal. Free work that produces no evidence should not continue indefinitely.
+
+### Distribution partners distort the research
+
+AR firms and adjacent service providers may contribute or distribute the work. Keith retains editorial control and independence while validating a potentially overlapping offer.
+
+## Current open questions
+
+- What exact wording should Keith use for the active project hypothesis?
+- What kill criteria and time window should govern the project?
+- Does the first article angle produce enough specific insight in two pilot interviews?
+- Which situations lead participants to accept the optional advisory session?
+- Which recommendations create observable action?
+- What outputs do participants request after the inquiry-style conversation?
+- Which outlet categories are most likely to value each article?
+- What evidence threshold is sufficient to design the first paid beta?
+
+## Immediate next step
+
+Run the two-person pilot:
+
+1. confirm the article question;
+2. select two known AR practitioners;
+3. send an interview-only invitation;
+4. conduct one interview;
+5. ask for a referral;
+6. offer the optional advisory session afterward; and
+7. record the evidence before expanding the project.
