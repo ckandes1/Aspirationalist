@@ -3,18 +3,108 @@
 ## Charter
 
 **Vision link:** Build an independent strategic SaaS marketing and AR practice that translates fragmented signals into coherent direction so leaders can make better product, positioning, and investment decisions.  
-**Active hypothesis:** TODO: Keith must define the specific testable bet and why it is the quickest path to validate.  
-**Kill criteria:** TODO: Keith must define what must prove true in the first 30–90 days and what would end or redirect this path.  
-**30–90 day scope:** Run a bounded discovery phase that uses buyer interviews and up to three free advisory engagements to identify a repeatable AR/MQ problem, useful diagnostic method, valuable output, and credible paid-offer hypothesis. Produce a discovery plan, evidence record, first offer card, and a decision on whether to begin campaign execution.  
-**Status:** Discovery setup. Last reviewed 2026-07-26. Campaign execution is paused while the buyer problem and offer are validated.
+**Active hypothesis:** TODO: Keith must state the specific testable bet represented by the research-publication and advisory sequence.  
+**Kill criteria:** TODO: Keith must define what evidence in the first 30–90 days would end or redirect this path.  
+**30–90 day scope:** Pilot and run a research-led validation project with AR practitioners. Use publication interviews to learn how companies handle the Magic Quadrant, offer optional inquiry-style advisory sessions after interviews, follow up on whether the advice changed anything, draft separate practitioner and executive articles, and decide whether the evidence supports a scoped paid beta.  
+**Status:** Research design approved and execution setup underway. Last reviewed 2026-07-30.
 
 ## What this project is
 
-This project develops and validates an independent Analyst Relations advisory offer and the route to market for it.
+This project develops and validates an independent Analyst Relations advisory offer through practitioner research, useful content, and direct evidence from real advisory situations.
 
-The initial entry point is the Gartner Magic Quadrant. The deeper potential value is helping companies connect Gartner's market view, the company's business thesis, product and investment priorities, and the positioning communicated to analysts and other stakeholders.
+The initial research topic is the gap between how AR leaders understand the Gartner Magic Quadrant and what executives expect from it. The work should reveal where that gap creates wasted effort, poor priorities, internal friction, or weak business decisions.
 
-The project begins with evidence gathering. Keith has substantial Gartner, AR, PMM, competitive intelligence, positioning, and MQ experience. He has not yet applied that knowledge as an external advisory service. The current work therefore needs to discover which parts of that experience produce repeatable client value before defining a polished paid offer or campaign.
+The project uses a publication as the legitimate reason to begin conversations. The article interview comes first. After the interview and referral request, Keith may offer a separate free advisory session as a thank-you. That session tests whether his former Gartner and vendor-side perspective helps someone make or execute a consequential decision.
+
+## Current project sequence
+
+`article concept → practitioner interviews → participant referrals → optional free advisory sessions → outcome follow-up → evidence synthesis → two article drafts → external distribution pitches → paid-beta decision`
+
+The sequence is designed to separate four different questions:
+
+1. Will people contribute to the research?
+2. Do the same AR and MQ problems repeat?
+3. Does Keith's advice change a real decision or action?
+4. Is there a bounded outcome someone will pay to achieve?
+
+## Current research concept
+
+Working practitioner title:
+
+**What AR Leaders Wish Executives Understood About the Magic Quadrant**
+
+Central research question:
+
+Where do executive expectations create friction, wasted effort, or poor decisions during the MQ cycle, and what should companies do differently?
+
+This angle is narrow enough to produce specific practitioner insight while connecting directly to the possible advisory territory: MQ interpretation, executive education, program priorities, resource allocation, business strategy, and company positioning.
+
+## Project phases
+
+### Phase 1: Pilot the interview concept
+
+- Invite two AR practitioners Keith already knows.
+- Ask only for a casual interview contributing to the publication.
+- Test whether the topic creates specific, useful conversation.
+- End each interview by asking who else in AR should be included.
+- Then offer an optional separate advisory session as a thank-you.
+
+### Phase 2: Run practitioner research
+
+- Expand to approximately five to eight interviews if the pilot works.
+- Capture executive misunderstandings, MQ pressure, resource choices, useful practices, and unmet support needs.
+- Preserve exact participant language where permission allows.
+- Track quote attribution, anonymity, and publication permissions separately from private advisory information.
+
+### Phase 3: Test the free advisory pre-offer
+
+Run accepted sessions like a Gartner inquiry with the added ability to observe downstream impact:
+
+- understand the live situation and decision;
+- pressure-test the participant's thinking;
+- provide a direct interpretation and recommendation;
+- identify the action they intend to take;
+- follow up to learn what they used and what happened; and
+- offer one short follow-up call when useful.
+
+The scope stays flexible during early learning. The evidence must come from decisions, actions, outcomes, referrals, or requests for continued help.
+
+### Phase 4: Produce and place the research
+
+Create two distinct articles from the same research:
+
+1. **Practitioner version:** what AR leaders wish executives understood about the Magic Quadrant.
+2. **Executive version:** how MQ expectations affect product investment, differentiation, executive alignment, credibility, and commercial outcomes.
+
+Before publishing either article independently:
+
+- identify relevant AR, PMM, B2B marketing, PR, and SaaS outlets or organizations;
+- pitch the finished draft to the strongest exclusive target first;
+- offer adjacent formats such as a webinar, podcast, panel, roundtable, or research discussion;
+- provide a clear response window; and
+- move to the next outlet or self-publish when the window closes.
+
+### Phase 5: Decide on a paid beta
+
+Draft a paid beta only when the evidence shows:
+
+- a repeated triggering situation;
+- a consequential problem;
+- advice or analysis that changes decisions or actions;
+- a repeatable way of helping;
+- a useful bounded output; and
+- a plausible buyer.
+
+## Validation model
+
+The project tracks four different forms of evidence:
+
+- **Content validation:** people accept interviews, contribute useful insight, refer peers, approve quotes, or share the finished piece.
+- **Problem validation:** similar triggers, consequences, conflicts, and unmet needs appear independently.
+- **Service validation:** someone brings a consequential problem, uses the advice, and changes a decision or action.
+- **Offer validation:** someone requests continued help, makes a referral, introduces a buyer, expresses willingness to pay, or joins a paid beta.
+
+Positive feedback alone does not establish service or offer validation.
 
 ## Relationship to the MQ Package
 
@@ -22,89 +112,43 @@ The MQ Package remains the canonical operating system and substantive knowledge 
 
 `../mq-package/`
 
-This project is the commercial validation layer. It tests buyer problems, advisory applications, useful outputs, and routes to market. Discovery from real companies may also identify gaps or priorities for the MQ Package.
-
-The projects should link rather than duplicate material:
+This project is the commercial and market-learning layer:
 
 - MQ methods, playbooks, scorecards, and reusable tools belong in the MQ Package.
-- Buyer research, offer hypotheses, funnel design, campaign planning, and commercial learning belong here.
-- A finding that changes the MQ method should be captured in the MQ Package before it is treated as canonical.
-
-## Lean GTM sequence
-
-The current operating sequence is:
-
-`market opportunity → buyer problem → desired outcome → offer → evidence → message → route to market → campaign → learning`
-
-This sequence is iterative. Each stage only needs enough clarity to support the next useful test. The project should avoid building complete GTM collateral around assumptions that have not been tested.
-
-## Current stage
-
-The project is between buyer-problem discovery and offer discovery.
-
-Enough is known to begin structured research:
-
-- The first likely champion is an Analyst Relations leader or practitioner.
-- CEOs and CMOs are likely economic buyers or important executive stakeholders.
-- Product marketing, product, strategy, and competitive intelligence are important collaborators.
-- The initial problem involves mystery and uncertainty around Gartner, the MQ process, available levers, resource allocation, executive expectations, and whether the company is communicating its strategy effectively.
-- The desired outcome likely involves clearer priorities, less low-value work, stronger executive alignment, better current ROI from AR, and improved MQ performance over time.
-
-The repeatable diagnostic method, deliverable, scope, paid outcome, and pricing remain unresolved.
-
-## Current route-to-market hypothesis
-
-The likely minimum route is:
-
-`LinkedIn expertise content → free resource or research invitation → private conversation → limited free advisory engagement → paid-offer hypothesis → campaign`
-
-Keith has previously generated strong LinkedIn engagement and several unsolicited service inquiries from content based on his former Gartner analyst perspective. That is evidence that the channel and subject matter can create interest. It does not yet establish which service people will buy.
-
-Research outreach may also be used with people who engage with the content. It should be framed plainly as offer research rather than disguised selling.
+- Interview evidence, advisory applications, validation tracking, offer hypotheses, publication planning, and commercial learning belong here.
+- A finding that changes the MQ method should be captured in the MQ Package before becoming canonical guidance.
 
 ## Boundaries
 
-- Do not finalize a paid offer, price, or guarantee before the discovery work supports it.
-- Do not build a website, membership, cohort, broad campaign calendar, or ad program during the current discovery stage.
-- Do not treat free engagements as incomplete paid engagements or hidden upsells. They are genuine help and research with an intentionally flexible scope.
-- Do not promise a specific MQ placement or imply control over Gartner's evaluation.
-- Do not reproduce licensed Gartner research or confidential employer, customer, analyst, or company information.
-- Keep public activity appropriately separated from Keith's current employer.
-- Preserve uncertainty. A plausible service model should remain a hypothesis until it has been tested with real buyers and situations.
+- The initial outreach asks only for an article interview.
+- The referral question comes before the optional advisory offer.
+- Publication interviews and private advisory conversations have separate permissions and records.
+- Free advisory sessions provide genuine help and carry no hidden sales obligation.
+- Campaign claims, pricing, and the paid offer remain downstream from evidence.
+- MQ placement cannot be promised.
+- Licensed Gartner research and confidential employer, customer, analyst, or company information stay out of public material.
+- External AR consulting firms may become contributors or distribution partners, but the research remains independent.
 
-## Project maturity
+## Project files
 
-`source → working → canonical → artifact`
+### Source
 
-Current files:
+- `source/2026-07-26-gtm-discovery-session.md` preserves the original pivot from campaign planning into buyer and offer discovery.
+- `source/2026-07-30-research-publication-plan-decision.md` preserves the reasoning and decisions behind the research-publication and advisory sequence.
 
-- `source/2026-07-26-gtm-discovery-session.md` preserves the initial interview and raw thinking.
-- `working/mvp-gtm-foundation.md` captures the current synthesis and what remains unresolved.
+### Working
 
-No canonical method or public artifact exists yet.
+- `working/mvp-gtm-foundation.md` contains the current strategic foundation.
+- `working/research-publication-plan.md` contains the operational interview, advisory, publication, and distribution plan.
+- `working/validation-tracker.md` defines how evidence is captured and reviewed.
 
-## Open questions
+No canonical method, finished article, or paid offer exists yet.
 
-- What is the project's active hypothesis?
-- What evidence would kill or redirect the current path?
-- Which buyer situation creates enough urgency to seek outside help?
-- Which parts of Keith's knowledge become useful in a real company situation?
-- What should the first free advisory engagement include?
-- What materials and questions are required to diagnose an MQ and AR program?
-- What repeatable output would a client value enough to pay for?
-- What evidence is sufficient to move from free discovery into a paid pilot?
-- How much of the offer depends on the MQ Package being completed first?
+## Immediate next actions
 
-## Next action
-
-Create the GTM Discovery Plan. It should define:
-
-1. who to interview first;
-2. the interview and follow-up questions;
-3. the information and materials to request;
-4. the invitation language for research conversations;
-5. how free advisory engagements will be selected and tracked;
-6. what evidence will be captured from each interaction; and
-7. the decision criteria for drafting the first paid offer.
-
-Before the project begins executing that plan, Keith should complete the active hypothesis and kill-criteria fields in the charter.
+1. Confirm the working article question and title.
+2. Select the first two AR practitioners Keith already knows.
+3. Send an interview-only invitation to each.
+4. Prepare the interview guide and participant tracker.
+5. Conduct the first conversation before expanding the program.
+6. Complete the charter's active hypothesis and kill criteria before the first formal project review.
