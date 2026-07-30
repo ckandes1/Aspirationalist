@@ -74,6 +74,12 @@ Important Drive file:
 
 That file should be treated as the active human-readable context brief for the project.
 
+Current active deck:
+
+`02 Decks / Current Working Deck / MQ Package v0.5 DRAFT.pptx`
+
+This is the immediate working artifact for turning the MQ Package direction into a straightforward presentation. The active deck should explain and package the direction. It should not become the source of truth by itself.
+
 ### GitHub is the durable knowledge base
 
 Use this repository for:
@@ -148,7 +154,7 @@ The immediate MVP should stay simple:
    - Risks and Decisions;
    - Gate Closeout.
 
-The active deck should explain and package this direction. It should not become the source of truth by itself.
+The active deck should package this direction into a straightforward presentation and help Keith move the project forward.
 
 ## Current next work
 
