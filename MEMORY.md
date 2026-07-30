@@ -16,21 +16,24 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - The current MQ sequence is: review working decisions, ingest decision-relevant missing sources, revise decisions, begin the canonical spine, then build the diagnostic scorecard and executive education deck.
 - Publication and post-season findings are still pending. The demo workflow remains the largest MQ source gap.
 - Existing Zone 1 / Zone 2 notes remain in the Analyst Relations topic and are referenced rather than moved.
-- The AR Advisory GTM project is now tracked at `docs/projects/ar-advisory-gtm/`.
-- AR Advisory GTM is in discovery setup. The paid offer and campaign remain unresolved by design.
-- The July 26 interview is preserved at `docs/projects/ar-advisory-gtm/source/2026-07-26-gtm-discovery-session.md`.
-- The current synthesis is at `docs/projects/ar-advisory-gtm/working/mvp-gtm-foundation.md`.
-- The immediate AR Advisory GTM action is to create a discovery plan covering interviews, intake, free advisory engagements, evidence capture, and the gate for drafting a paid offer.
-- Buyer discovery and limited free advisory work may run in parallel with MQ Package development. Reusable MQ methods and tools stay in the MQ Package; commercial learning stays in AR Advisory GTM.
+- The AR Advisory GTM project is tracked at `docs/projects/ar-advisory-gtm/`.
+- AR Advisory GTM now uses a research-publication mechanism: article interview, participant referral, optional separate advisory session, impact follow-up, evidence synthesis, two article drafts, external distribution pitches, then a paid-beta decision.
+- The working research angle is `What AR Leaders Wish Executives Understood About the Magic Quadrant`.
+- The initial outreach asks only for a publication interview. The optional free advisory session is offered after the interview and referral question.
+- Advisory sessions run like Gartner inquiries with direct outcome follow-up and one short follow-up call when useful.
+- `docs/projects/ar-advisory-gtm/working/research-publication-plan.md` contains the operational plan.
+- `docs/projects/ar-advisory-gtm/working/validation-tracker.md` separates content, problem, service, and offer evidence.
+- The immediate AR Advisory GTM action is to select two known AR practitioners and send the interview-only invitation.
+- Buyer and advisory discovery may run in parallel with MQ Package development. Reusable MQ methods and tools stay in the MQ Package; commercial and publication learning stays in AR Advisory GTM.
 - The Personal Field Notes topic is merged at `docs/topics/personal-field-notes/` with a reusable canonical-topic capture skill.
 - Vision OS is canonical at `docs/projects/vision-os/canonical/operational-blueprint.md`. The chain is `vision → candidate hypotheses → one bet → 30–90 day bound scope → weekly reflection → daily time blocks`, capped at three active priorities and one hypothesis each.
 - Next.js + Sanity + Vercel stack is decided, scaffolding has not started.
 
 ## Recent Decisions
 
-- **Personal projects:** non-Aspirationalist work lives at `docs/personal/<project-name>/` using the same structure as `docs/projects/`. `docs/projects/` remains the default; path is the only marker.
 - **Project charter:** every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status. Agents may draft the link, scope, and status but never the hypothesis or kill criteria.
-- **AR Advisory GTM:** track consulting-offer discovery separately from the MQ Package. Begin with buyer interviews and limited free advisory work. Keep the paid offer and campaign paused until evidence clarifies the repeatable problem, method, output, and outcome.
+- **AR Advisory GTM:** validate the service through practitioner research, optional inquiry-style advisory sessions, and downstream outcome evidence before defining a paid beta.
+- **Publication sequencing:** finish and pitch the practitioner and executive articles to relevant external outlets before public self-publication when exclusivity may matter.
 
 ## Open Questions
 
@@ -41,9 +44,12 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - Which publication and post-season findings must be captured before MQ canonical work begins?
 - What is the MQ Package's active hypothesis and what would kill it?
 - What is Vision OS's own hypothesis, kill criteria, and 30–90 day scope?
-- What is the AR Advisory GTM project's active hypothesis?
-- What evidence would kill or redirect the AR Advisory GTM path?
-- What evidence is sufficient to move from free discovery into a paid pilot?
+- What exact active hypothesis should Keith enter for AR Advisory GTM?
+- What evidence and time window should become the AR Advisory GTM kill criteria?
+- Does the first article angle produce specific enough insight in the two-person pilot?
+- Which advisory situations produce observable action and repeatable value?
+- What evidence is sufficient to design the first paid beta?
+- Which AR, PMM, B2B marketing, PR, and SaaS outlets should be prioritized for each article and adjacent format?
 - Whether the public website navigation label remains `Resources` or changes later
 - Newsletter platform
 - Community platform
