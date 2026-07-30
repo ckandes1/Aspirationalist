@@ -4,6 +4,90 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-07-30: AR research-publication plan
+
+### Completed this session
+
+- Reviewed the existing AR Advisory GTM charter, source capture, working foundation, repository memory, handoff, and decision history.
+- Reframed the project around a practitioner research publication rather than direct advisory-offer outreach.
+- Rewrote `docs/projects/ar-advisory-gtm/README.md` with the approved project sequence and current scope.
+- Rewrote `working/mvp-gtm-foundation.md` as the research-led strategic foundation.
+- Added `source/2026-07-30-research-publication-plan-decision.md` to preserve the reasoning behind the shift.
+- Added `working/research-publication-plan.md` with the interview, referral, advisory, follow-up, article, distribution, and paid-beta sequence.
+- Added `working/validation-tracker.md` to separate content, problem, service, and offer evidence.
+- Updated `docs/build/DECISIONS.md` and `MEMORY.md` with the durable direction and current next action.
+- Left the active hypothesis and kill criteria as explicit `TODO`s because repository rules require Keith to define them.
+- Branch `chatgpt/ar-research-publication-plan` contains the work.
+
+### Current project mechanism
+
+The project now follows:
+
+`article interview → participant referral → optional free advisory session → impact follow-up → evidence synthesis → practitioner and executive articles → external distribution pitches → paid-beta decision`
+
+The initial invitation asks only for contribution to the article. The optional advisory session is offered after the interview and referral question so the publication does not resemble funnel camouflage.
+
+### Working article angle
+
+**What AR Leaders Wish Executives Understood About the Magic Quadrant**
+
+The central research question is where executive expectations create friction, wasted effort, or poor decisions during the MQ cycle and what companies should do differently.
+
+The research may produce two separate articles:
+
+1. a practitioner article preserving AR experience and advice;
+2. an executive article translating the findings into product investment, differentiation, alignment, credibility, and commercial implications.
+
+### Advisory model
+
+Accepted free sessions run like Gartner inquiries:
+
+- begin with a real MQ or executive-stakeholder issue;
+- clarify the decision and constraints;
+- pressure-test the participant's thinking;
+- provide a direct interpretation and recommendation;
+- capture the action the participant intends to take;
+- follow up to learn what was used and what changed; and
+- offer one short follow-up call when useful.
+
+The ability to observe downstream use is the key service-validation advantage.
+
+### Evidence model
+
+- **Content validation:** interview participation, useful contributions, referrals, quote approval, sharing, and publisher interest.
+- **Problem validation:** recurring triggers, consequences, executive misunderstandings, and unmet needs.
+- **Service validation:** advice is used and changes a real decision or action.
+- **Offer validation:** continued-help requests, referrals based on advisory value, buyer introductions, willingness-to-pay signals, or paid-beta participation.
+
+Positive feedback remains in the category it supports. It does not automatically prove service or offer value.
+
+### Distribution sequence
+
+Finish the drafts before public release. Research relevant AR, PMM, B2B marketing, PR, SaaS, podcast, webinar, panel, and roundtable opportunities. Pitch the strongest exclusive target first, provide a response window, then move to the next outlet or self-publish.
+
+### Immediate next action
+
+1. Confirm the article question.
+2. Select two AR practitioners Keith already knows.
+3. Send the interview-only invitation.
+4. Conduct the first interview.
+5. Ask for a participant referral.
+6. Offer the optional advisory session afterward.
+7. Record the evidence before expanding.
+
+### Remaining charter decision
+
+Keith still needs to write:
+
+- the project's active hypothesis; and
+- the evidence and time window that become its kill criteria.
+
+### To resume with an AI agent
+
+Say: `Read AGENTS.md, KEITH.md, MEMORY.md, docs/journal/HANDOFF.md, docs/projects/ar-advisory-gtm/README.md, both AR Advisory GTM source files, and the three working files. Continue from selecting the two pilot participants and preparing the first interview.`
+
+---
+
 ## Session Handoff — 2026-07-26: AR Advisory GTM
 
 ### Completed this session
