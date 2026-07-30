@@ -232,3 +232,30 @@ Consequences:
 - Buyer interviews and free advisory work may run in parallel with MQ Package development because they can identify real needs and package gaps.
 - Reusable MQ methods and artifacts are developed in the MQ Package and linked into AR Advisory GTM.
 - The AR Advisory GTM charter keeps the active hypothesis and kill criteria as explicit `TODO`s for Keith.
+
+---
+
+### 2026-07-30: Use a research publication to enter AR service discovery
+
+Decision:
+Use a practitioner research publication as the first interaction in the AR Advisory GTM project.
+
+Invite AR leaders to contribute to an article about what executives misunderstand about the Magic Quadrant. Ask for participant referrals at the end of the interview. Offer a separate optional advisory session afterward as a thank-you, then follow up to observe whether the advice changed a decision or action.
+
+Create separate practitioner and executive articles from the research. Pitch finished drafts and adjacent formats to relevant external outlets or organizations before public self-publication when exclusivity may matter.
+
+Rationale:
+Direct outreach about a future advisory offer resembled disguised service discovery and would predictably fail the trust test for some AR practitioners. The publication creates a legitimate reason to talk, produces useful content, and gives participants a clear contribution role without requiring them to engage with a consulting funnel.
+
+The optional inquiry-style advisory session creates a separate service test. Direct follow-up provides evidence that conventional inquiry interactions usually lack: whether the participant used the advice and what changed. This allows the project to distinguish content validation from problem, service, and offer validation.
+
+Consequences:
+- The initial invitation asks only for the article interview.
+- The referral question comes before any advisory offer.
+- Article attribution and private advisory confidentiality use separate permissions and records.
+- Advisory sessions remain flexible during the pilot and include an impact follow-up plus one short follow-up call when useful.
+- The project tracks content, problem, service, and offer evidence separately.
+- Positive feedback and article participation do not count as service validation.
+- The first execution step is a two-person pilot with AR practitioners Keith already knows.
+- External distribution research becomes a formal project task covering articles, podcasts, webinars, panels, roundtables, and related formats.
+- A paid beta remains downstream from repeated problems, observable advisory impact, a repeatable mechanism, a bounded output, and a credible buyer signal.
