@@ -16,7 +16,15 @@ A five-week sequence of roughly five to ten meaningfully reworked posts creates 
 
 ### Build a pipeline rather than treating each post as a one-off
 
-The practical next step is a repeatable content pipeline that turns strong source material into multiple differentiated posts spaced over time. This supports the interview-first campaign by maintaining visibility and creating natural opportunities for private conversations without requiring an overt LinkedIn CTA.
+The practical next step is a repeatable content pipeline that turns strong source material into multiple differentiated posts spaced over time.
+
+The pipeline also needs somewhere for interested people to go after seeing a post. It should support at least three paths:
+
+- contact Keith directly;
+- express interest or wait for follow-up;
+- access or download a useful resource.
+
+The exact mechanism remains open, but it must exist before the first campaign post is published.
 
 ### Reconsider the long-form publishing home
 
@@ -30,9 +38,15 @@ Questions to test later:
 
 ## Current conclusion
 
-The campaign concept is directionally strong. Continue developing a sequence of reworked posts from existing high-value material and set up the pipeline when campaign execution begins.
+The campaign concept is directionally strong and should move into execution now.
 
-No action is required this week.
+The first-week priorities are:
+
+1. establish a minimum viable response pipeline;
+2. decide the CTA approach and how it avoids employer-related risk;
+3. prepare and publish the first reworked post.
+
+Target the first post for Thursday, August 6, 2026, with Friday, August 7 as the fallback.
 
 ## Process note
 
