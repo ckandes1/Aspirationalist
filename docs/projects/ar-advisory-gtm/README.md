@@ -73,14 +73,15 @@ Private conversations may lead to advisory work when someone voluntarily brings 
 
 1. Pick five people to contact.
 2. Write the outreach message.
-3. Ping them and schedule meetings.
-4. Prepare the interview guide.
-5. Find and test the meeting, recording, and transcription setup.
-6. Conduct interview one.
-7. Write immediate closeout notes about the interview and what was learned.
-8. Combine the notes with the transcript.
-9. Improve the interview before the next person.
-10. Continue toward 8–10 total interviews.
+3. Choose the video meeting platform and confirm how the meeting link, recording, and transcript will work.
+4. Ping the first person and schedule the interview using that platform.
+5. Prepare the interview guide before the meeting.
+6. Run a short practice call. Verify the recording, transcript quality, speaker labels, and transcript export.
+7. Conduct interview one.
+8. Write immediate closeout notes about the interview and what was learned.
+9. Combine the closeout notes, interview notes, and transcript in one record.
+10. Review what would make the next interview better, then revise the guide or setup.
+11. Continue toward 8–10 total interviews.
 
 ## What waits
 
