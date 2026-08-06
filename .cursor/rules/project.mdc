@@ -16,5 +16,8 @@ Review relevant docs under `/docs` before implementation work, especially:
 - `docs/product/INFORMATION_ARCHITECTURE.md`
 - `docs/build/BUILD_WORKFLOW.md`
 - `docs/build/DECISIONS.md`
+- `docs/build/CHANGELOG_POLICY.md`
+
+Before finishing any session that changes repository files, decide whether `CHANGELOG.md` must be updated under the changelog policy. Make the decision automatically. Do not ask Keith.
 
 Make small, reviewable changes. Preserve prior strategic intent. Ask before major product, architecture, or workflow changes.
