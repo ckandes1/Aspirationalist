@@ -1,5 +1,13 @@
 # AR Advisory GTM
 
+## Charter
+
+**Vision link:** Build an independent strategic SaaS marketing and AR practice that translates fragmented signals into coherent direction so leaders can make better product, positioning, and investment decisions.  
+**Active hypothesis:** TODO: Keith must define the specific testable bet and why it is the quickest path to validate.  
+**Kill criteria:** TODO: Keith must define what must prove true in the first 30–90 days and what would end or redirect this path.  
+**30–90 day scope:** Interview 8–10 AR practitioners, synthesize the findings into an open qualitative report, establish the publication and response path, and use audience response to decide what advisory work is worth testing next.  
+**Status:** Interview setup. Last reviewed 2026-08-06. Current milestone is completing the first interview and improving the process before interview two.
+
 ## Current decision
 
 The current route to market is an interview-led research campaign:
