@@ -209,7 +209,7 @@ Five fields, at the top of the README, before any other section:
 Rules for agents:
 - One active hypothesis per project. No more than three active priorities across the repo at once. If a fourth appears, surface the conflict rather than absorbing it.
 - Do not write or revise the hypothesis or the kill criteria. Those are Keith's. Agents may draft the vision link, scope, and status for review.
-- Leave unanswered fields as an explicit `TODO` naming what is missing. Do not infer a hypothesis from surrounding project material — a plausible-sounding invented bet is worse than a blank one, because it looks decided.
+- Leave unanswered fields as an explicit `TODO` naming what is missing. Do not infer a hypothesis from surrounding project material. A plausible-sounding invented bet is worse than a blank one because it looks decided.
 - When evidence trips a project's kill criteria, say so directly and add it to Open Questions in `MEMORY.md`. Do not continue executing a project whose criteria have failed.
 - A project without a charter is not yet a project. Either write the charter or leave the work in the relevant topic's `raw/`.
 - Applies to `docs/personal/` projects as well.
@@ -245,7 +245,7 @@ Rules for agents:
 - The path is the only marker. Do not add a `personal:` or `context:` field to frontmatter, READMEs, or `MEMORY.md`.
 - Do not move a project between `docs/projects/` and `docs/personal/` without asking. Reclassification breaks links and is Keith's call.
 - If a personal project produces thinking useful to the Aspirationalist audience, do not move the project. Write the shareable version as an artifact under the relevant topic or project and link back to it.
-- This repo is public and the transparency rules above apply unchanged. Personal projects touch third parties and financial specifics more often than Aspirationalist work does, so flag the specific passage for review — addresses, account numbers, counterparty names, specific financial figures — rather than making a whole project private or stripping surrounding context.
+- This repo is public and the transparency rules above apply unchanged. Personal projects touch third parties and financial specifics more often than Aspirationalist work does, so flag the specific passage for review, including addresses, account numbers, counterparty names, and specific financial figures, rather than making a whole project private or stripping surrounding context.
 - Personal projects appear in `MEMORY.md` under the same headings as everything else. Do not create a separate personal memory file.
 
 ## Agent Roles
@@ -272,16 +272,27 @@ After completing any work that modifies files:
 
 1. Tell Keith which branch and pull request contain the changes.
 2. Summarize what changed and what he should review.
-3. Use a commit title under 72 characters, in imperative tense, prefixed with the agent name.
+3. Provide a ready-to-paste **Suggested merge title** for the final merge or squash commit. Keep it under 72 characters, use imperative tense, and prefix it with the agent name in square brackets.
+4. Provide a ready-to-paste **Suggested merge description** summarizing the complete current pull request, preferably as concise bullets.
+5. If the agent updates an existing pull request, refresh the suggested merge title and description so they describe the entire pull request, not only the newest commit.
 
-Example format:
+Use these exact headings in the user-facing handoff:
 
 ```text
-[claude] Add memory system to repo
+Suggested merge title
+[agent] Describe the complete change
 
-- Added MEMORY.md with active project context
-- Added docs/journal/archive.md for historical context
-- Added Memory System section to AGENTS.md with agent maintenance rules
+Suggested merge description
+- Summarize the most important change
+- Summarize supporting files or decisions
+- State the resulting status or next action
 ```
 
 The title must be prefixed with the agent that made the changes: `[claude]`, `[codex]`, `[cursor]`, `[chatgpt]`, `[keith]`, etc.
+
+Terminology:
+
+- An agent usually makes one or more **commits** on a branch.
+- A **pull request** groups the branch changes for Keith to review.
+- Keith then **merges the pull request** into `main`.
+- Depending on the selected GitHub merge method, the final fields may be labeled a merge commit title and description or a squash commit title and description. The suggested merge title and description should be suitable for either.

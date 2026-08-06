@@ -232,3 +232,21 @@ Consequences:
 - Buyer interviews and free advisory work may run in parallel with MQ Package development because they can identify real needs and package gaps.
 - Reusable MQ methods and artifacts are developed in the MQ Package and linked into AR Advisory GTM.
 - The AR Advisory GTM charter keeps the active hypothesis and kill criteria as explicit `TODO`s for Keith.
+
+---
+
+### 2026-07-26: Require merge-ready handoff text from AI agents
+
+Decision:
+After an AI agent opens or updates a pull request, its user-facing handoff must include a ready-to-paste suggested merge title and suggested merge description for the complete current pull request.
+
+The title uses imperative tense, stays under 72 characters, and begins with the agent name in square brackets. The description summarizes the full pull request rather than only the latest commit.
+
+Rationale:
+Keith reviews and merges AI-generated pull requests manually. GitHub may ask him to enter or edit the final merge or squash commit title and description. Requiring him to return to the agent for that text creates repeated avoidable work, especially when the agent already has the best context on the complete change.
+
+Consequences:
+- Every AI handoff after repository changes uses the headings `Suggested merge title` and `Suggested merge description`.
+- The suggested text is ready to paste into GitHub.
+- Updating an existing pull request requires refreshing the suggestion to cover the entire pull request.
+- The term `pull request` refers to the review package; Keith's final action is to merge the pull request into `main`.
