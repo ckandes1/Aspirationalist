@@ -42,6 +42,17 @@ Short paragraphs. Plain language. No jargon unless it's necessary and then expla
 **Authentic, honest, sincere.**
 No hype. No overselling. If something is half-finished, say it's half-finished. Readers trust Keith because he's straight with them.
 
+## Short-form notes
+
+- Open with the sharpest consequence, tension, or surprising claim.
+- When asked to make something bolder, increase the stakes and specificity. Do not merely shorten it.
+- Use parallel sentences when one force creates two opposing outcomes.
+- Prefer vivid language that creates a reaction over neutral explanation.
+- Explain the mechanism in one sentence.
+- End on the payoff. Do not summarize afterward.
+- Compress until every sentence adds meaning or force.
+- Genuine contrast is useful. Avoid formulaic “not X, but Y” constructions.
+
 ## When editing existing drafts
 
 Check for:
