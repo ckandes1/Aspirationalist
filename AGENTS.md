@@ -122,6 +122,12 @@ Rules for agents:
 - One fact lives in one place. Do not duplicate content across files.
 - `MEMORY.md` captures what is true now. `DECISIONS.md` captures why it became true. `HANDOFF.md` captures session narrative for resuming.
 
+## Changelog Policy
+
+Before completing any meaningful repository change, determine whether it should be recorded in `CHANGELOG.md`.
+
+Follow the repository standard in `docs/standards/changelog.md`. A task that changes repository files is not complete until the changelog has been evaluated. Update it automatically when the work materially changes strategy, structure, project direction, canonical guidance, AI behavior, or what future work should assume.
+
 ## Documentation Rules
 
 - Update `DECISIONS.md` when making a durable strategic, product, architecture, or workflow decision.
