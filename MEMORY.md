@@ -24,13 +24,14 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - Buyer discovery and limited free advisory work may run in parallel with MQ Package development. Reusable MQ methods and tools stay in the MQ Package; commercial learning stays in AR Advisory GTM.
 - The Personal Field Notes topic is merged at `docs/topics/personal-field-notes/` with a reusable canonical-topic capture skill.
 - Vision OS is canonical at `docs/projects/vision-os/canonical/operational-blueprint.md`. The chain is `vision → candidate hypotheses → one bet → 30–90 day bound scope → weekly reflection → daily time blocks`, capped at three active priorities and one hypothesis each.
+- The Idea Murder Machine is the filter stage inside Vision OS. Gate One is at `docs/projects/vision-os/canonical/gate-one.md` and the original records are in `docs/projects/vision-os/source/`. `docs/README.md` maps how projects and frameworks connect.
 - Next.js + Sanity + Vercel stack is decided, scaffolding has not started.
 
 ## Recent Decisions
 
+- **Idea Murder Machine placement:** it lives inside Vision OS as the filter between candidate hypotheses and the one bet, not as a separate project. Gate One is its first stage.
 - **Project charter:** every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status. Agents may draft the link, scope, and status but never the hypothesis or kill criteria.
 - **AR Advisory GTM:** track consulting-offer discovery separately from the MQ Package. Begin with buyer interviews and limited free advisory work. Keep the paid offer and campaign paused until evidence clarifies the repeatable problem, method, output, and outcome.
-- **Merge handoff:** after opening or updating a pull request, every AI agent provides a ready-to-paste suggested merge title and description covering the complete pull request.
 
 ## Open Questions
 
@@ -41,6 +42,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 - Which publication and post-season findings must be captured before MQ canonical work begins?
 - What is the MQ Package's active hypothesis and what would kill it?
 - What is Vision OS's own hypothesis, kill criteria, and 30–90 day scope?
+- What does passing Gate One produce in this repository, a candidate for the hypothesis slot or an active project, and how do its questions 3 and 5 feed a charter's hypothesis and kill criteria?
 - What is the AR Advisory GTM project's active hypothesis?
 - What evidence would kill or redirect the AR Advisory GTM path?
 - What evidence is sufficient to move from free discovery into a paid pilot?
