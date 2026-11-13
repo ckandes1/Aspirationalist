@@ -28,6 +28,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Recent Decisions
 
+- **Video soundtrack standard:** reusable soundtrack candidates live in `docs/standards/video.md`, organized by video use and documented with vibe, public music context, timestamp notes, caveats, and rights verification.
 - **Project charter:** every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status. Agents may draft the link, scope, and status but never the hypothesis or kill criteria.
 - **AR Advisory GTM:** track consulting-offer discovery separately from the MQ Package. Begin with buyer interviews and limited free advisory work. Keep the paid offer and campaign paused until evidence clarifies the repeatable problem, method, output, and outcome.
 - **Merge handoff:** after opening or updating a pull request, every AI agent provides a ready-to-paste suggested merge title and description covering the complete pull request.

@@ -9,5 +9,6 @@ See `docs/standards/changelog.md` for maintenance rules.
 ## Unreleased
 
 ### Added
+- Added `docs/standards/video.md` as the living video-production standard, beginning with a soundtrack palette that captures reusable track roles, timestamp notes, vibe, public music context, caveats, and rights checks.
 - Established `docs/standards/changelog.md` as the canonical changelog standard so every agent evaluates meaningful repository changes consistently and treats that evaluation as part of the definition of done.
 - Added a repository-level changelog and AI maintenance policy so meaningful changes to strategy, structure, workflows, projects, programs, and canonical material are recorded consistently.
