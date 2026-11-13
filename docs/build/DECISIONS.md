@@ -250,3 +250,27 @@ Consequences:
 - The suggested text is ready to paste into GitHub.
 - Updating an existing pull request requires refreshing the suggestion to cover the entire pull request.
 - The term `pull request` refers to the review package; Keith's final action is to merge the pull request into `main`.
+
+---
+
+### 2026-11-13: Treat the Idea Murder Machine as a stage of Vision OS
+
+Decision:
+Document the Idea Murder Machine inside `docs/projects/vision-os/` as the stage between candidate hypotheses and the one bet. Keep the original records in `source/` and Gate One, the first stage of the filter, in `canonical/gate-one.md`. Add `docs/README.md` as a map of how the projects and frameworks connect.
+
+Rationale:
+The Vision OS blueprint already names the Idea Murder Machine as a stage in its architecture. A separate project would have duplicated that stage and would have counted as a fourth active project under the three-priority limit, even though it sits upstream of the bets.
+
+The first recommendation was a standalone project at `docs/projects/idea-murder-machine/`, based on the project-recognition rules in `AGENTS.md`. It was reversed after reading the blueprint. Nothing in `AGENTS.md`, `KEITH.md`, or the Vision OS README pointed to the link, which is why the map was added.
+
+Ruled out:
+- A standalone project, because it duplicates a blueprint stage and collides with the three-priority limit.
+- A topic, because topics hold thinking and the Idea Murder Machine is a working method.
+- `docs/personal/`, because the method serves the platform.
+- A separate repository, because it would create a second system and break the one-primary-home rule.
+
+Consequences:
+- Gate One's original wording says a passing idea "is now a project." The charter rule asks for more. This is left open in `canonical/gate-one.md` and in `MEMORY.md` until Keith decides.
+- The Project Foundation is preserved as written, including personal context, under the candid-by-default rule.
+- The informed vibe coding learning goal and the Claude project behavior spec were not migrated, because neither is part of the blueprint stage.
+- Agents read `docs/README.md` before deciding where new work belongs.
