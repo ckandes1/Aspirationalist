@@ -37,6 +37,16 @@ Two constraints do most of the work:
 - No more than three active priorities.
 - One active hypothesis per priority.
 
+## The Idea Murder Machine stage
+
+The step between candidate hypotheses and the one bet is the Idea Murder Machine. It is the filter that decides which ideas survive long enough to be chosen. Gate One is its first stage: five questions an idea must pass before anything is planned or built.
+
+The detailed version lives at:
+
+`canonical/gate-one.md`
+
+The original records it was derived from are in `source/`.
+
 ## Relationship to the rest of the repo
 
 Vision OS is a project like any other, but its canonical material governs how other projects are chartered. The `Project Charter` rules in `AGENTS.md` are the applied form of Section 3 of the blueprint.
@@ -57,6 +67,6 @@ Charter the MQ Package. It is the active anchor project and the first honest tes
 
 `source → working → canonical → artifact`
 
-There is currently no `source/`, `working/`, or `artifacts/` folder. Create them only when the work needs them.
+There is currently no `working/` or `artifacts/` folder. Create them only when the work needs them.
 
 A public artifact version of this framework is plausible — the problem it addresses is common — but it should not be built until the framework has been run against at least one real project and revised from what that produced.
