@@ -6,7 +6,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Active Work
 
-- **AI-Abundance Futures (proposed):** November 14 conversation and repository audit are captured as unreviewed raw material at `docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md`. No new project charter or canonical world model has been approved. Next: review capture, recover existing sources, then scope a bounded Stage 0 project-architecture study using established repo workflow.
+- **AI-Abundance Futures (proposed):** November 14 conversation and repository audit are preserved at `docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md`. Agent lab practices audit: `docs/topics/ai-agents/raw/2026-11-14-ai-agent-lab-practices-audit.md`. Decision-oriented PR review and risk-based independent AI critique are approved direction, with workflow updates awaiting review in a PR. Next: recover sources and scope a bounded Stage 0 project-architecture study. No new project charter or canon has been approved.
 - The MQ Package remains the canonical Gartner MQ project at `docs/projects/mq-package/`.
 - The consolidated source document is merged at `docs/projects/mq-package/source/2026-mq-season-notes.md`.
 - The working decision document is merged at `docs/projects/mq-package/working/mq-package-decisions-v1.md`.
@@ -29,11 +29,9 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Recent Decisions
 
-- **Video soundtrack standard:** reusable soundtrack candidates live in `docs/standards/video.md`, organized by video use and documented with vibe, public music context, timestamp notes, caveats, and rights verification.
-- **Project charter:** every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope, and status. Agents may draft the link, scope, and status but never the hypothesis or kill criteria.
-- **AR Advisory GTM:** track consulting-offer discovery separately from the MQ Package. Begin with buyer interviews and limited free advisory work. Keep the paid offer and campaign paused until evidence clarifies the repeatable problem, method, output, and outcome.
-- **Merge handoff:** after opening or updating a pull request, every AI agent provides a ready-to-paste suggested merge title and description covering the complete pull request.
-
+- **2026-11-14 decision-oriented review:** Short evidence-linked decision brief for substantive PRs, with independent AI critique for high-impact changes when feasible. Documented in `docs/build/DECISIONS.md`, implemented by proposed updates to `AGENTS.md` and `docs/build/BUILD_WORKFLOW.md`.
+- **Project charter:** Every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope and status. Only Keith supplies hypothesis and kill criteria.
+- **Merge handoff:** AI PRs provide ready-to-paste suggested merge title and description.
 ## Open Questions
 
 - AI-Abundance Futures: Should this become a distinct project under `docs/projects/`, and what active hypothesis and kill criteria should Keith select for Stage 0?
