@@ -4,6 +4,24 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-11-14: Agent lab-practices comparison and decision review
+
+### Decision
+
+Keith approved adding a concise, evidence-linked decision brief to substantive PRs and seeking independent AI reviews for high-impact decisions when feasible. Approval of the direction is confirmed; proposed repository edits remain subject to normal PR review and merge.
+
+### Completed on branch
+
+- Compared OpenAI, Anthropic and Google published agent practices against the existing Aspirationalist repo; audit: `docs/topics/ai-agents/raw/2026-11-14-ai-agent-lab-practices-audit.md`.
+- Added the decision and rationale to `docs/build/DECISIONS.md`.
+- Proposed changes to `AGENTS.md` and `docs/build/BUILD_WORKFLOW.md` for short PR briefs, risk-tiered independent reviews and explicit approval boundaries.
+- Updated `MEMORY.md` and `CHANGELOG.md` for cross-session discovery. No actual independent AI review has yet been performed.
+
+### Next action
+
+Review and merge the pending PR when acceptable. Future substantive PRs should lead with a director-oriented decision brief. Continue the AI-Abundance Futures project with source recovery, a bounded Stage 0 architecture study and director-owned charter decisions. No autonomous agent platform or new project has been created.
+
+---
 ## Session Handoff — 2026-11-14: AI-Abundance Futures project discovery
 
 ### Why this was captured
