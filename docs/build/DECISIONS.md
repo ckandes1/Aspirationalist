@@ -4,6 +4,23 @@ This document records important product, content, architecture, and platform dec
 
 ---
 
+### 2026-11-14: Use decision briefs and selective independent AI reviews
+
+Decision:
+AI contributors must provide a concise, evidence-linked **Decision brief** on substantive pull requests so Keith can review the requested decision and its consequences at the appropriate level. High-impact strategic, canonical, security/privacy, and dependency-changing work should seek independent AI review when feasible and disclose the result or the absence of that review. Detail stays in linked source and working documents.
+
+Rationale:
+The November 14 AI-Abundance Futures discussion exposed a practical review bottleneck: substantial AI-generated material can require an impractical amount of reading before the director can tell what merging actually means. The existing GitHub context, project gates, and branch/PR processes work. A progressive, decision-oriented summary and targeted second opinion add value without creating new infrastructure. OpenAI and Anthropic's published agent-development guidance supports durable context, human gates, simple composition and reviewer/evaluator patterns; the exact decision-brief format is a project-specific adaptation.
+
+Consequences:
+- PR summaries start with an action, scope, evidence, risks, recommendation and explicit approval boundary.
+- An archival PR says that source retention does not constitute approval of its content.
+- Independent AI review is sought for consequential work when feasible, with actual findings or missing-review status stated accurately.
+- Keith remains the final authority at strategic/project/canonical gates. Repository working and source material remain distinct from approved canon.
+- No new orchestration platform or dedicated user interface is required to start.
+- Lab source comparison and further options live at `docs/topics/ai-agents/raw/2026-11-14-ai-agent-lab-practices-audit.md`.
+
+---
 ### 2026-06-07: Use owned canonical resources as the platform hub
 
 Decision:
