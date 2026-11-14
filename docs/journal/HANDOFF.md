@@ -4,6 +4,29 @@ Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for 
 
 ---
 
+## Session Handoff — 2026-11-14: AI-Abundance Futures project discovery
+
+### Why this was captured
+
+A long conversation explored a future AI-abundance civilization, interconnected propositions and independently engaging stories. The request developed into a multi-provider, long-running research, worldbuilding and publishing program that survives between context windows. The repository audit found that Aspirationalist already implements cross-session memory, branch/PR review and project-charter conventions.
+
+### Completed
+
+- Audited AGENTS.md, MEMORY.md, KEITH.md, the project/topic structure, Vision OS, content strategy and build workflow.
+- Preserved the context, original-language excerpts, agreed direction, unapproved assumptions, audit findings, source leads and future handoff prompt in `docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md`.
+- Updated MEMORY.md so the new work can be discovered by any future AI.
+- Did not create a new project or approve a canon, charter, manifesto or agent orchestrator.
+
+### Next action
+
+Review the unapproved source capture. Retrieve previously cited Drive documents and locate the exact "aspiration list" source. Prepare options for a 30–90-day Stage 0 project-architecture study. Keith must decide whether to charter a new project and define its active hypothesis and kill criteria before the project is created.
+
+### To resume with another AI
+
+"Read AGENTS.md, KEITH.md, MEMORY.md, docs/topics/aspirationalism/README.md and docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md. Continue from the audited source capture and recommend the smallest suitable Stage 0 architecture study. Do not invent Keith's hypothesis, kill criteria or approved canon."
+
+---
+
 ## Session Handoff — 2026-07-26: AR Advisory GTM
 
 ### Completed this session

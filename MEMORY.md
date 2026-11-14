@@ -6,6 +6,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Active Work
 
+- **AI-Abundance Futures (proposed):** November 14 conversation and repository audit are captured as unreviewed raw material at `docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md`. No new project charter or canonical world model has been approved. Next: review capture, recover existing sources, then scope a bounded Stage 0 project-architecture study using established repo workflow.
 - The MQ Package remains the canonical Gartner MQ project at `docs/projects/mq-package/`.
 - The consolidated source document is merged at `docs/projects/mq-package/source/2026-mq-season-notes.md`.
 - The working decision document is merged at `docs/projects/mq-package/working/mq-package-decisions-v1.md`.
@@ -35,6 +36,8 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Open Questions
 
+- AI-Abundance Futures: Should this become a distinct project under `docs/projects/`, and what active hypothesis and kill criteria should Keith select for Stage 0?
+- AI-Abundance Futures: Where is the original aspiration-list framework, and which ideology/worldbuilding/publishing research sequence should Stage 0 recommend?
 - Which working MQ items are truly decided versus provisional?
 - Is the MQ lifecycle correct enough to become the canonical spine?
 - Which NotebookLM sources materially change the current MQ working decisions?
