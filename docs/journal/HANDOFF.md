@@ -1,5 +1,16 @@
 # Aspirationalist Handoff
 
+## Session Handoff — 2026-11-14: Aspirationalist ecosystem taxonomy
+
+Keith agreed to use **Aspirationalist** as the umbrella, with four interconnected layers: **Aspirationalism** (philosophy), **Futures Model** (revisable research-informed civilizational possibilities), **Fictional Universe** (setting and stories), and **Published Experiences** (independent stories, essays and other media). Research on hunger, poverty, AI and automation feeds the model and philosophy and may produce independent outputs. Feedback can move between layers.
+
+This is the agreed planning taxonomy. No new project, story canon, site IA change, or publishing-first strategy was authorized. Stage 0 must examine whether fiction becomes the principal public gateway or one of several.
+
+Sources identified in Drive during the same session: [Poverty and World Hunger Project Charter](https://docs.google.com/document/d/1V4cSJsYkiEb1YxcHjmFfFLZH2mK01vh4IietxaXtd_o/edit), [Impossibility of Wage-Preserving Abundance preprint](https://docs.google.com/document/d/1YTEKFv0zqlbnXlmVCNcOAEsP1CyDtjFajRD4o_ZfG7w/edit), [AAP Solution Idea Sheet](https://docs.google.com/document/d/1Eik3ogrYrU0dJV3Y3jxqyXjgfrPZ5jZ7FAYDAUnpEeM/edit), [AAP Project Overview](https://docs.google.com/document/d/1997sAZXukGs9gc7F0dxiZgn9ODdRsE1jjhA1IN0Aw-I/edit). These represent the later labor/abundance research; the earlier, standalone hunger-solutions analysis remains to be located. Neither the preprint's premises nor its conclusions were independently validated in this search.
+
+Next: keep the sources in their original locations, inventory them for Stage 0, evaluate research/worldbuilding/distribution options, and request Keith's active hypothesis/kill criteria before chartering a project.
+
+---
 Session narrative for resuming work. Read `AGENTS.md` and `MEMORY.md` first for active context.
 
 ---
