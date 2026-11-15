@@ -1,5 +1,27 @@
 # Decisions
 
+### 2026-11-14: Organize the Aspirationalist ecosystem into four connected layers
+
+Decision:
+Use **Aspirationalist** as the umbrella platform and public-facing ecosystem, with four connected conceptual layers:
+
+1. **Aspirationalism:** The developing philosophy and ideological foundation: human progress, agency, abundance, contribution, and stewardship.
+2. **Futures Model:** Research-informed, revisable models of possible civilizational development, including economics, AI, politics, technology, institutions, human psychology, and timelines.
+3. **Fictional Universe:** The fictional setting, characters, events, and independent stories that explore or challenge futures-model assumptions.
+4. **Published Experiences:** Novels, short stories, essays, videos, podcasts and other standalone public entry points.
+
+Research programs such as world hunger, poverty, AI and automation inform the philosophy and futures model and may also yield independent research artifacts. Learning can flow in both directions: fiction may expose gaps in a model; research may revise the philosophy or fictional rules.
+
+Rationale:
+Keith explicitly agreed with this taxonomy during the November 14 exploration. It organizes the emerging science-fiction/worldbuilding direction as part of the existing Aspirationalist ecosystem and makes the relationship between philosophy, research, storytelling and distribution clear. The layers guide understanding and future options assessment; they do not imply a mandated production sequence.
+
+Consequences and open boundaries:
+- This is the approved **starting organizational taxonomy** for planning and discovery. It does not approve specific philosophical propositions, a future history, story canon, a new project charter, or site navigation.
+- Stage 0 should test whether fiction should be Aspirationalist's primary public entry point or one of several complementary experiences.
+- Existing research retains its source location and authority. Do not create duplicate projects or move files solely to match this taxonomy.
+- Stage 0 still requires Keith's project charter decision, active hypothesis, and kill criteria before a distinct project is created.
+
+---
 This document records important product, content, architecture, and platform decisions along with the rationale behind them.
 
 ---
