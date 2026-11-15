@@ -272,6 +272,22 @@ Planner agents clarify requirements, identify open decisions, and draft product,
 6. Open a pull request for review.
 7. Merge only after review.
 
+## Decision-Oriented AI Review
+
+For every substantive pull request, start the PR description with a short **Decision brief** that allows Keith to decide without first reading the full diff:
+
+- **Action requested:** State whether the merge archives raw source, approves working direction, updates canonical guidance, changes operating policy, or publishes an artifact.
+- **What changed and why:** Summarize the material change in 1–3 points.
+- **Evidence and confidence:** Link to the files, sources, comparisons, or observed checks; distinguish verified evidence from inference.
+- **Risks and open questions:** State material limitations and affected dependencies.
+- **Recommendation and approval boundary:** State exactly what the human approval or merge would authorize, and what it would leave unresolved.
+- **Review assurance:** Name any real independent AI reviewer and summarize findings. Otherwise state that independent review is pending or was not needed, without implying it occurred.
+
+Use links for depth. Keep the brief concise and visible before detailed implementation notes. A PR that merely captures raw source must expressly say that merging preserves the material without endorsing its claims.
+
+**Risk-based independent review:** Request a distinct AI reviewer, when feasible, before high-impact changes such as promoting foundational research or fictional world rules to canon, making strategic methodology changes, materially affecting downstream dependencies, or changing security/privacy constraints. Include dissent and unresolved findings in the decision brief. For minor source capture, formatting, or routine maintenance, self-review may suffice. If independent review cannot be obtained, disclose that limitation and leave any heightened approval decision with Keith.
+
+Do not silently promote working material into canon. Keep existing project charter ownership, branch/PR review and final human decision gates.
 ## Change Summary Expectations
 
 After completing any work that modifies files:
