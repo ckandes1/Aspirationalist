@@ -6,7 +6,7 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Active Work
 
-- **AI-Abundance Futures (proposed):** November 14 conversation and repository audit are preserved at `docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md`. Agent lab practices audit: `docs/topics/ai-agents/raw/2026-11-14-ai-agent-lab-practices-audit.md`. Decision-oriented PR review and risk-based independent AI critique are approved direction, with workflow updates awaiting review in a PR. Next: recover sources and scope a bounded Stage 0 project-architecture study. No new project charter or canon has been approved.
+- **Aspirationalist ecosystem / AI-Abundance Futures (proposed):** Agreed starting taxonomy: Aspirationalist umbrella → Aspirationalism philosophy → revisable futures model → fictional universe → published experiences, with research informing multiple layers and feedback moving between them. Decision rationale: `docs/build/DECISIONS.md`. Futures handoff: `docs/topics/aspirationalism/raw/2026-11-14-ai-abundance-futures-project-handoff.md`; lab-practices audit: `docs/topics/ai-agents/raw/2026-11-14-ai-agent-lab-practices-audit.md`. PR decision briefs and risk-based critique are merged operating policy. Next: source inventory and bounded Stage 0 architecture options. No new charter or world canon yet.
 - The MQ Package remains the canonical Gartner MQ project at `docs/projects/mq-package/`.
 - The consolidated source document is merged at `docs/projects/mq-package/source/2026-mq-season-notes.md`.
 - The working decision document is merged at `docs/projects/mq-package/working/mq-package-decisions-v1.md`.
@@ -29,12 +29,13 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 
 ## Recent Decisions
 
-- **2026-11-14 decision-oriented review:** Short evidence-linked decision brief for substantive PRs, with independent AI critique for high-impact changes when feasible. Documented in `docs/build/DECISIONS.md`, implemented by proposed updates to `AGENTS.md` and `docs/build/BUILD_WORKFLOW.md`.
+- **Aspirationalist ecosystem taxonomy (2026-11-14):** One umbrella with philosophy, futures model, fictional universe and published experiences; the dominant public entry point is open for Stage 0.
+- **2026-11-14 decision-oriented review:** Short evidence-linked decision brief for substantive PRs, with independent AI critique for high-impact changes when feasible. Documented in `docs/build/DECISIONS.md`, implemented in `AGENTS.md` and `docs/build/BUILD_WORKFLOW.md`.
 - **Project charter:** Every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope and status. Only Keith supplies hypothesis and kill criteria.
-- **Merge handoff:** AI PRs provide ready-to-paste suggested merge title and description.
 ## Open Questions
 
 - AI-Abundance Futures: Should this become a distinct project under `docs/projects/`, and what active hypothesis and kill criteria should Keith select for Stage 0?
+- Aspirationalist publishing strategy: Should fiction become the primary public entry point or one of several?
 - AI-Abundance Futures: Where is the original aspiration-list framework, and which ideology/worldbuilding/publishing research sequence should Stage 0 recommend?
 - Which working MQ items are truly decided versus provisional?
 - Is the MQ lifecycle correct enough to become the canonical spine?

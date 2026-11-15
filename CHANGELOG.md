@@ -9,6 +9,7 @@ See `docs/standards/changelog.md` for maintenance rules.
 ## Unreleased
 
 ### Added
+- Recorded the agreed Aspirationalist ecosystem taxonomy: philosophy, futures model, fictional universe, and published experiences, with research informing multiple layers and the public-entry strategy remaining open.
 - Adopted decision-oriented PR briefs and risk-based independent AI review as the preferred interface between detailed agent contributions and human approvals, based on an audit of published lab guidance and the existing repository workflow.
 - Captured the proposed AI-Abundance Futures program as unreviewed source material and cross-session handoff, preserving its objectives and open decisions without creating a project or changing canonical guidance.
 - Added `docs/standards/video.md` as the living video-production standard, beginning with a soundtrack palette that captures reusable track roles, timestamp notes, vibe, public music context, caveats, and rights checks.
