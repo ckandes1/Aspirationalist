@@ -30,9 +30,8 @@ Active working context. Kept under 275 lines. When it exceeds that, completed it
 ## Recent Decisions
 
 - **Aspirationalist ecosystem taxonomy (2026-11-14):** One umbrella with philosophy, futures model, fictional universe and published experiences; the dominant public entry point is open for Stage 0.
-- **2026-11-14 decision-oriented review:** Short evidence-linked decision brief for substantive PRs, with independent AI critique for high-impact changes when feasible. Documented in `docs/build/DECISIONS.md`, implemented by proposed updates to `AGENTS.md` and `docs/build/BUILD_WORKFLOW.md`.
+- **2026-11-14 decision-oriented review:** Short evidence-linked decision brief for substantive PRs, with independent AI critique for high-impact changes when feasible. Documented in `docs/build/DECISIONS.md`, implemented in `AGENTS.md` and `docs/build/BUILD_WORKFLOW.md`.
 - **Project charter:** Every project README opens with vision link, active hypothesis, kill criteria, 30–90 day scope and status. Only Keith supplies hypothesis and kill criteria.
-- **Merge handoff:** AI PRs provide ready-to-paste suggested merge title and description.
 ## Open Questions
 
 - AI-Abundance Futures: Should this become a distinct project under `docs/projects/`, and what active hypothesis and kill criteria should Keith select for Stage 0?
